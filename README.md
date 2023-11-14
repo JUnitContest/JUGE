@@ -11,9 +11,9 @@ For information about the past editions of the JUnit Competition, see [https://j
 
 Here are the planned periods:
 
-- Tool submission: January 21st 2022
-- Benchmark results communicated to authors: February 25th 2022
-- Submission of camera-ready paper: Sunday March 18th 2020
+- Tool submission: December 01, 2023
+- Benchmark results communicated to authors: January 04, 2024
+- Submission of camera-ready paper: January 25, 2024
 
 # Documentation
 
