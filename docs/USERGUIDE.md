@@ -20,6 +20,7 @@ To build the docker image, first build the tools used in the infrastructure usin
 git clone https://github.com/JUnitContest/junitcontest 
 cd junitcontext
 mvn package
+//alternatively sudo mvn package
 ``` 
 It will produce the following artifacts: `benchmarktool/target/benchmarktool-1.0.0-shaded.jar`.
 
