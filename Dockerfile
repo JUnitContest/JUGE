@@ -12,6 +12,11 @@ RUN apt-get install -y cvc4
 # Copy the utility scripts to run the infrastructure
 COPY infrastructure/scripts/ /usr/local/bin/
 
+# [R](https://www.r-project.org)
+RUN apt-get install -y libgmp-dev libmpfr-dev
+RUN apt-get install -y r-base
+RUN Rscript /usr/local/bin/get-libraries.R
+
 # Copy dependencies
 RUN mkdir -p /usr/local/bin/lib/
 COPY infrastructure/lib/junit-4.12.jar /usr/local/bin/lib/junit.jar
