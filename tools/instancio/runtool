@@ -1,0 +1,4 @@
+#!/bin/bash
+
+java -jar lib/instancio_runtool-1.0.0.jar
+
