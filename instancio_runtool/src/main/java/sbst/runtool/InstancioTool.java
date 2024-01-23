@@ -40,57 +40,28 @@ public class InstancioTool implements ITestingTool {
 
     }
 
-    private boolean instancio_run(String cp, String cut, long timeBudget) throws Exception {
-        final String javaCmd = "java";
-        ProcessBuilder pbuilder = new ProcessBuilder(javaCmd, "-jar", "lib/instancio.jar", "-cp", cp, "-class", cut, "-Dsearch_budget=" + timeBudget);
+    private void instancio_run(String cp, String cName, long timeBudget) throws Exception {
+        List<String> command = new ArrayList<>();
+        command.add("java");
+        command.add("-jar");
+        command.add("lib/instancio.jar");
+        command.add("-projectCP=" + cp);
+        command.add("-class=" + cName);
+        command.add("-Dtest_dir=temp/testcases");
+        command.add("-Dsearch_budget=" + timeBudget);
 
-            pbuilder.redirectErrorStream(true);
-            Process process = null;
-            InputStreamReader stdout = null;
-            InputStream stderr = null;
-            OutputStreamWriter stdin = null;
-            boolean mutationExitStatus = false;
-        
-            process = pbuilder.start();
-            stderr = process.getErrorStream();
-            stdout = new InputStreamReader(process.getInputStream());
-            stdin = new OutputStreamWriter(process.getOutputStream());
-        
-            BufferedReader reader = new BufferedReader(stdout);
-            String line = null;
-            while ((line = reader.readLine()) != null) {
-                //System.out.println(line);
-            }
-            reader.close();
-        
-            try {
-                process.waitFor();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        
-            int exitStatus = process.exitValue();
-        
-            //System.out.println("exit status = " + exitStatus);
-        
-            mutationExitStatus = exitStatus == 0;
-        
-            if (stdout != null) {
-                stdout.close();
-            }
-            if (stdin != null) {
-                stdin.close();
-            }
-            if (stderr != null) {
-                stderr.close();
-            }
-            if (process != null) {
-                process.destroy();
-            }
-        
-            return mutationExitStatus;
-        
+        ProcessBuilder processBuilder = new ProcessBuilder(command);
+        Process process = processBuilder.start();
 
+        try {
+            int exitCode = process.waitFor();
+
+            if (exitCode != 0) {
+                throw new IOException("Instancio execution failed with exit code: " + exitCode);
+            }
+        } catch (InterruptedException e) {
+            throw new IOException("Instancio execution was interrupted", e);
+        }
     }
 
 }

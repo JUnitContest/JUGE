@@ -1,4 +1,14 @@
 #!/bin/bash
 
-java -jar lib/instancio_runtool-1.0.0.jar
+# Set the script's directory
+SCRIPT_DIR=/home/instancio
 
+# Define the paths to Instancio and the runtool JAR
+INS=$SCRIPT_DIR/lib/instancio.jar
+TOOL=$SCRIPT_DIR/lib/instancio_runtool-1.0.0.jar
+
+# Set the classpath
+CLASSPATH=$SCRIPT_DIR:$INS:$TOOL
+
+# Run EvoSuite using the classpath
+java -cp "$CLASSPATH" sbst.runtool.Main
