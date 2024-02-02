@@ -1,8 +1,8 @@
-#! /bin/bash
+#!/bin/bash
 
 # switch to environment JVM as needed
-#JAVA_HOME=/usr/lib/jvm/java-8-oracle
-JAVA_HOME=/usr
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+#JAVA_HOME=/usr
 JAVAC_CMD=$JAVA_HOME/bin/javac
 JAVA_CMD=$JAVA_HOME/bin/java
 
@@ -23,7 +23,7 @@ echo "---------"
 echo "SBST-Contest"
 $JAVA_HOME/bin/java -version
 echo "---------"
-exec $JAVA_HOME/bin/java -ea -Dsbst.benchmark.jacoco="$JACOCO_JAR" \
+exec $JAVA_CMD -ea -Dsbst.benchmark.jacoco="$JACOCO_JAR" \
 	-Dsbst.benchmark.java="$JAVA_CMD" \
 	-Dsbst.benchmark.javac="$JAVAC_CMD" \
 	-Dsbst.benchmark.config="$CONF" \
