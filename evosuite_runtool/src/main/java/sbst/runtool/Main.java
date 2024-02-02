@@ -12,7 +12,7 @@ public class Main {
             runTool.run();
             System.exit(0);
         } catch (Exception e) {
-            System.err.print("Exception caught: " + e.toString());
+            System.err.print("Exception caught: "+ e.toString());
             e.printStackTrace();
             System.exit(1);
         }

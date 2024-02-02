@@ -26,7 +26,7 @@ public interface ITestingTool {
      * Run the test tool, and let it generate test cases for a given class
      *
      * @param cName      Name of the class for which unit tests should be generated
-     * @param timeBudget Time budget for the test generation
+     * @param timeBudget How long the tool must run to test the class (in miliseconds)
      */
     public void run(String cName, long timeBudget);
 

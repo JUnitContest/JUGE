@@ -1,14 +1,13 @@
 #!/bin/bash
 
-# Set the script's directory
+# switch to environment JVM as needed
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+# JAVA_HOME=/usr
+
 SCRIPT_DIR=/home/evosuite
 
-# Define the paths to EvoSuite and the runtool JAR
 EVO=$SCRIPT_DIR/lib/evosuite.jar
 TOOL=$SCRIPT_DIR/lib/evosuite_runtool-1.0.0.jar
 
-# Set the classpath
-CLASSPATH=$SCRIPT_DIR:$EVO:$TOOL
 
-# Run EvoSuite using the classpath
-java -cp "$CLASSPATH" sbst.runtool.Main
+java -cp $SCRIPT_DIR:$EVO:$TOOL -Dlogback.configurationFile=$SCRIPT_DIR/sbst_logback.xml  -Duse_different_logback=sbst_logback.xml  sbst.runtool.Main
