@@ -46,7 +46,7 @@
         <module>manual_runtool</module>
         <module>jcrasher_runtool</module>
         <module>evosuite_runtool</module>
-        <module>instancio_runtool</module>
+        <module>symflower_runtool</module>
         <module>shaded</module>
     </modules>
 
