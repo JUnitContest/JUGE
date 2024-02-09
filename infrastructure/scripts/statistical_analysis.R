@@ -3,6 +3,7 @@
 args = commandArgs(trailingOnly=TRUE)
 
 # author: Annibale Panichella (2017)
+# edited by: [José Campos](https://jose.github.io/) (2024)
 
 # load required library
 library(data.table)
@@ -19,32 +20,26 @@ w_faults <- 4
 
 # parse the input parameters
 if (length(args)<2) {
-  stop("At least two argument must be supplied: (i) input file, and (ii) output folder.n", call.=FALSE)
+  stop("At least two argument must be supplied: (i) input file, and (ii) output folder.", call.=FALSE)
 } 
 
+# read csv file
+rawdata <- read.table(args[1], sep=",", header=TRUE)
+rawdata$timeBudget <- as.factor(rawdata$timeBudget)
+rawdata$benchmark  <- as.factor(rawdata$benchmark)
+rawdata$class      <- as.factor(rawdata$class)
+rawdata$tool       <- as.factor(rawdata$tool)
+
 # create output directory
-output_dir <- paste(args[2], "/output", sep="")
+output_dir <- args[2]
 if (file.exists(output_dir) == FALSE)
   dir.create(output_dir, showWarnings = TRUE)
 
-# read csv file
-rawdata <- read.table(args[1], sep=",", header=TRUE);
-
-# remove rows with "?"
-for (row in 1:nrow(rawdata)){
-  for (col in 1:ncol(rawdata)){
-    if (rawdata[row,col]=="?")
-      rawdata[row,col] = 0L
-  }
-}
-rawdata<-rawdata[complete.cases(rawdata),]
-
 # compute the score of each run
 scores <- vector(mode = "list", length = nrow(rawdata))
-
 for (index in 1:nrow(rawdata)) {
   point <- rawdata[index,]
-  
+
   coverageScore <- 0
   coverageScore <- coverageScore + as.numeric(as.character(point$linesCoverageRatio))/100 * w_i 
   coverageScore <- coverageScore + as.numeric(as.character(point$conditionsCoverageRatio))/100 * w_b 
@@ -55,43 +50,44 @@ for (index in 1:nrow(rawdata)) {
   
   # give a penalty when generationTime took too long
   if (as.numeric(as.character(point$generationTime)) == 0) {
-    overtime_generation_penalty = 1.0;
+    overtime_generation_penalty = 1.0
   } else {
-    timeBudgetMillis = as.numeric(as.character(point$timeBudget)) * 1000;
-    generationTimeRatio = timeBudgetMillis / as.numeric(as.character(point$generationTime));
-    overtime_generation_penalty = min(1, generationTimeRatio);
+    timeBudgetMillis = as.numeric(as.character(point$timeBudget)) * 1000
+    generationTimeRatio = timeBudgetMillis / as.numeric(as.character(point$generationTime))
+    overtime_generation_penalty = min(1, generationTimeRatio)
   }
   
   if (as.numeric(as.character(point$testcaseNumber)) == 0) {
     # no tests!
-    coverageScore =  0.0;
+    coverageScore =  0.0
   } else {
     if (as.numeric(as.character(point$uncompilableNumber)) == as.numeric(as.character(point$totalTestClasses))) {
-      uncompilableFlakyPenalty = 2.0;
+      uncompilableFlakyPenalty = 2.0
     } else {
       # assert testSuiteSize>0
       denominator <- as.numeric(as.character(point$testcaseNumber))
       denominator <- max(denominator, as.numeric(as.character(point$totalTestClasses)))
-      flakyTestRatio = as.numeric(as.character(point$brokenTests))/denominator;
+      flakyTestRatio = as.numeric(as.character(point$brokenTests))/denominator
 
       # assert totalNumberOfTestClasses !=0
-      uncompilableTestClassesRatio = as.numeric(as.character(point$uncompilableNumber)) / as.numeric(as.character(point$totalTestClasses));
-      uncompilableFlakyPenalty = flakyTestRatio + uncompilableTestClassesRatio;
+      uncompilableTestClassesRatio = as.numeric(as.character(point$uncompilableNumber)) / as.numeric(as.character(point$totalTestClasses))
+      uncompilableFlakyPenalty = flakyTestRatio + uncompilableTestClassesRatio
     }
     
     if (uncompilableFlakyPenalty>2.0)
       print("Error in the penalty function")
     
-    coverageScore = (coverageScore * overtime_generation_penalty) - uncompilableFlakyPenalty;
+    coverageScore = (coverageScore * overtime_generation_penalty) - uncompilableFlakyPenalty
     if (coverageScore < 0)
-       coverageScore = 0;
+       coverageScore = 0
   }
-  
+
   scores[[index]] <- list(
     benchmark = point$benchmark,
     class = point$class, 
-    run = as.numeric(point$run),
-    timeBudget = as.numeric(point$timeBudget),
+    run = as.numeric(as.character(point$run)),
+    timeBudget = as.numeric(as.character(point$timeBudget)),
+    config = paste(point$benchmark, "_", point$class, "_", as.numeric(as.character(point$timeBudget)), sep=""),
     tool = point$tool,
     score = coverageScore
   )
@@ -99,131 +95,50 @@ for (index in 1:nrow(rawdata)) {
 scores <- rbindlist(scores, fill = T)
 write.csv(scores, file = paste(output_dir,"/detailed_score.csv", sep=""))
 
-counter <- 1
-average.scores <- vector(mode = "list")
-for (project in unique(scores$benchmark)) {
-  subset.project <- scores[scores$benchmark == project, ]
-  #print(paste("project = ", project, "n.rows = ", nrow(subset.project)))
-  
-  for (actual.class in unique(subset.project$class)) {
-    subset.class <- subset.project[subset.project$class == actual.class, ]
-    #print(paste("classes = ", actual.class, "n.rows = ", nrow(subset.class)))
-    
-    for (actual.tool in unique(subset.class$tool)){
-      subset.tool <- subset.class[subset.class$tool == actual.tool,]
-      #print(paste("tool = ", actual.tool, "n.rows = ", nrow(points)))
-      
-      for (actual.budget in unique(subset.tool$timeBudget)){
-        points <- subset.tool[subset.tool$timeBudget == actual.budget,]
-        #print(paste("points = ", nrow(points)))
-        
-        average.scores[[counter]] <- list(
-          benchmark = project,
-          class = actual.class, 
-          tool = actual.tool,
-          budget = actual.budget,
-          config = paste(project,"_",actual.class,"_",actual.budget, sep=""),
-          score.mean = mean(points$score),
-          score.sd = sd(points$score)
-        )
-        counter <- counter + 1
-      }
-    }
-  }
-}
-
-#adjust the table for the missin lines
-temp.table <- rbindlist(average.scores, fill = T)
-configurations <- unique(temp.table$config)
-for (thisTool in unique(temp.table$tool)){
-  sub.table <- temp.table[ temp.table$tool == thisTool, ]
-  for (configur in configurations) {
-    temp <- sub.table[ sub.table$config == configur, ]
-    if (nrow(temp)==0){
-      #print(paste("Missing line for tool ",thisTool, "with configuration: ", configur, sep=""))
-      
-      # retrieve the configuration info from another tool
-      line <- temp.table[ temp.table$config == configur, ]
-      line <- line[1, ]
-      
-      # add missing line with zero score
-      average.scores[[counter]] <- list(
-         benchmark = line$benchmark,
-         class = line$class, 
-         tool = thisTool,
-         budget = line$budget,
-         config = configur,
-         score.mean = 0,
-         score.sd = 0
-       )
-       counter <- counter + 1
-    }
-  }
-}
-
-# write the table on file
-average.scores <- rbindlist(average.scores, fill = T)
+# aggregate multiple runs/seeds
+average.scores <- scores
+average.scores <- aggregate(score ~ config + timeBudget + benchmark + class + tool, data=average.scores, mean)
 write.csv(average.scores, file = paste(output_dir,"/score_per_subject.csv", sep=""))
-#latex.table <- xtable(average.scores)
-#print(latex.table, type = "latex", file = paste(output_dir,"/score_per_subject.tex",sep=""), include.rownames=FALSE)
-
 
 # apply the Friedman's test for statistical significance
-res <- friedman.test(y = average.scores$score.mean, groups = factor(average.scores$tool), blocks = factor(average.scores$config))
+res <- friedman.test(y = average.scores$score, groups = factor(average.scores$tool), blocks = factor(average.scores$config))
 print(res)
 res = as.data.frame(do.call(rbind, res))
 write.table(res, file = paste(output_dir,"/friedman_test.txt", sep=""))
 
 # apply the post-hoc Kruskal's predecure 
-res <- kwAllPairsConoverTest(x = average.scores$score.mean, g=as.factor(average.scores$tool))
+res <- kwAllPairsConoverTest(x = average.scores$score, g=as.factor(average.scores$tool))
 print(res)
 res = as.data.frame(res$p.value)
 write.table(res, file = paste(output_dir,"/kruskal.txt", sep=""))
 
 # compute final ranking
-y = as.numeric(average.scores$score.mean)
-groups = average.scores$tool
-blocks = average.scores$config
+ranks <- data.frame(matrix(ncol=3,nrow=0, dimnames=list(NULL, c("config", "tool", "rank"))))
+for (conf in unique(average.scores$'config')) {
+  # print(conf)
 
-k <- nlevels(factor(groups))
-y <- matrix(unlist(split(y, blocks)), ncol = k, byrow = TRUE)
-y <- y[complete.cases(y), ]
-n <- nrow(y)
-r <- t(apply(y, 1, rank))
-r <- k - r + 1
-tools <- unique(rawdata$tool)
-colnames(r) = tools
-r <- as.data.frame(r)
-ranking <- as.data.frame(colMeans(r))
-colnames(ranking) <- "Rank"
-write.csv(ranking, file = paste(output_dir,"/final_ranking.txt", sep=""))
+  x <- average.scores[average.scores$'config' == conf, ]
+  x$'rank' <- rank(-x$"score", ties.method=c('min'))
+  # print(x)
 
+  x <- subset(x, select=c('config', 'tool', 'rank'))
+  ranks <- rbind(ranks, x)
+}
+print(head(ranks))
+avg_ranks <- aggregate(rank ~ tool, data=ranks, mean)
+avg_ranks <- avg_ranks[order(avg_ranks$"rank"), ]
+print(avg_ranks)
+write.csv(avg_ranks, file = paste(output_dir,"/final_ranking.txt", sep=""))
 
 # compute average score of the tools for different time budgets
-score.budget <- vector(mode = "list")
-count <- 1
-for (actual.tool in unique(average.scores$tool)){
-  subset.tool <- average.scores[average.scores$tool == actual.tool,]
-  
-  for (actual.budget in unique(subset.tool$budget)){
-    points <- subset.tool[subset.tool$budget == actual.budget,]
-    
-    score.budget[[counter]] <- list(
-      tool = actual.tool,
-      budget = actual.budget,
-      score.sum = sum(points$score.mean),
-      score.sd = sum(points$score.sd)
-    )
-    counter <- counter + 1
-  }
-}
-score.budget <- rbindlist(score.budget, fill = T)
-score.budget <- score.budget[ order(score.budget$budget), ]
+score.budget <- aggregate(score ~ timeBudget + tool, data=average.scores, sum)
+print(score.budget)
 write.csv(score.budget, file = paste(output_dir,"/average_score.csv", sep=""))
-#latex.table <- xtable(score.budget)
-#print(latex.table, type = "latex", file = paste(output_dir,"/average_score.tex", sep=""), include.rownames=FALSE)
 
 # compute the final scores
-final.score <- aggregate(score.sum ~ tool, data = score.budget, sum)
-write.csv(final.score, file = paste(output_dir,"/final_score.csv", sep=""))
+final.score <- aggregate(score ~ tool, data=score.budget, sum)
+final.score <- final.score[order(-final.score$"score"), ]
 print(final.score)
+write.csv(final.score, file = paste(output_dir,"/final_score.csv", sep=""))
+
+# EOF
