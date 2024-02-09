@@ -31,7 +31,11 @@ do
 		else
 	                mkdir -p $SUT_RUN_DIR
         	        >&2 echo "Running SUT = $SUT; RUN = $RUN at $(date)"
-                	contest_run_benchmark_tool.sh $1 $SUT . $RUN $4 --only-generate-tests
+                  if echo "$SUT" | grep -q "ERRORPRONE"; then
+                          contest_run_benchmark_tool_on_error-prone.sh $1 $SUT . $RUN $4 --only-generate-tests
+                  else
+                          contest_run_benchmark_tool.sh $1 $SUT . $RUN $4 --only-generate-tests
+                  fi
                 	>&2 echo "... moving run results to: $SUT_RUN_DIR at $(date)"
                 	>&2 echo ""
                 	mv log.txt $SUT_RUN_DIR

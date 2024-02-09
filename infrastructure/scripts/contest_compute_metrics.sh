@@ -54,6 +54,9 @@ for f in `find $RESULTS_DIR -name '*-*_*'`; do
 	TESTCASES_FOLDER=$RESULTS_DIR/$FOLDER_NAME/temp/testcases
 	echo "TESTCASES_FOLDER=$TESTCASES_FOLDER"
 	CMD="contest_run_benchmark_tool.sh $TOOLNAME $SUT_ID . $RUN_ID $BUDGET --only-compute-metrics $TESTCASES_FOLDER"
+	if echo "$SUT_ID" | grep -q "ERRORPRONE"; then
+		CMD="contest_run_benchmark_tool_on_error-prone.sh $TOOLNAME $SUT_ID . $RUN_ID $BUDGET --only-compute-metrics $TESTCASES_FOLDER"
+	fi
 	echo "Executing metrics computation using $CMD"
 	$CMD
 	TRANSCRIPT_FILE="transcript.csv"

@@ -1,0 +1,266 @@
+class;method;num_branches;complexity;loc
+com.squareup.javapoet.WildcardTypeName;get(WildcardType, Map);0;1;3
+com.squareup.javapoet.WildcardTypeName;annotated(List);0;1;1
+com.squareup.javapoet.WildcardTypeName;withoutAnnotations();0;1;1
+com.squareup.javapoet.WildcardTypeName;get(WildcardType);0;1;1
+com.squareup.javapoet.WildcardTypeName;get(WildcardType);0;1;1
+com.squareup.javapoet.WildcardTypeName;WildcardTypeName(List, List, List);14;8;11
+com.squareup.javapoet.WildcardTypeName;emit(CodeWriter);4;3;5
+com.squareup.javapoet.WildcardTypeName;get(WildcardType, Map);4;3;7
+com.squareup.javapoet.WildcardTypeName;WildcardTypeName(List, List);0;1;2
+com.squareup.javapoet.WildcardTypeName;supertypeOf(TypeName);0;1;2
+com.squareup.javapoet.WildcardTypeName;subtypeOf(TypeName);0;1;1
+com.squareup.javapoet.WildcardTypeName;subtypeOf(Type);0;1;1
+com.squareup.javapoet.WildcardTypeName;supertypeOf(Type);0;1;1
+com.squareup.javapoet.Util;requireExactlyOneOf(Set, Modifier[]);6;4;6
+com.squareup.javapoet.Util;immutableMultimap(Map);4;3;6
+com.squareup.javapoet.Util;stringLiteralWithDoubleQuotes(String, String);10;6;15
+com.squareup.javapoet.Util;characterLiteralWithoutSingleQuotes(char);11;10;10
+com.squareup.javapoet.Util;union(Set, Set);0;1;4
+com.squareup.javapoet.Util;checkNotNull(Object, String, Object[]);2;2;2
+com.squareup.javapoet.Util;checkArgument(boolean, String, Object[]);2;2;2
+com.squareup.javapoet.Util;checkState(boolean, String, Object[]);2;2;2
+com.squareup.javapoet.Util;immutableMap(Map);0;1;1
+com.squareup.javapoet.Util;immutableList(Collection);0;1;1
+com.squareup.javapoet.Util;immutableSet(Collection);0;1;1
+com.squareup.javapoet.TypeName;box();20;11;11
+com.squareup.javapoet.TypeName;get(Type, Map);30;16;22
+com.squareup.javapoet.TypeName;unbox();20;11;11
+com.squareup.javapoet.TypeName;arrayComponent(TypeName);2;2;3
+com.squareup.javapoet.TypeName;withoutAnnotations();0;1;1
+com.squareup.javapoet.TypeName;toString();2;2;11
+com.squareup.javapoet.TypeName;emit(CodeWriter);4;3;5
+com.squareup.javapoet.TypeName;static {...};0;1;19
+com.squareup.javapoet.TypeName;isBoxedPrimitive();16;9;8
+com.squareup.javapoet.TypeName;list(Type[], Map);2;2;4
+com.squareup.javapoet.TypeName;equals(Object);6;4;4
+com.squareup.javapoet.TypeName;emitAnnotations(CodeWriter);2;2;5
+com.squareup.javapoet.TypeName;annotated(List);0;1;2
+com.squareup.javapoet.TypeName;concatAnnotations(List);0;1;3
+com.squareup.javapoet.TypeName;TypeName(String, List);0;1;4
+com.squareup.javapoet.TypeName;isPrimitive();4;3;1
+com.squareup.javapoet.TypeName;get(TypeMirror, Map);0;1;1
+com.squareup.javapoet.TypeName;isAnnotated();2;2;1
+com.squareup.javapoet.TypeName;asArray(TypeName);2;2;3
+com.squareup.javapoet.TypeName;TypeName(String);0;1;2
+com.squareup.javapoet.TypeName;get(TypeMirror);0;1;1
+com.squareup.javapoet.TypeName;get(Type);0;1;1
+com.squareup.javapoet.TypeName;list(Type[]);0;1;1
+com.squareup.javapoet.TypeName;TypeName(List);0;1;2
+com.squareup.javapoet.TypeName;annotated(AnnotationSpec[]);0;1;1
+com.squareup.javapoet.TypeName;hashCode();0;1;1
+com.squareup.javapoet.TypeVariableName;withoutAnnotations();0;1;1
+com.squareup.javapoet.TypeVariableName;get(TypeVariable);0;1;1
+com.squareup.javapoet.TypeVariableName;withBounds(TypeName[]);0;1;1
+com.squareup.javapoet.TypeVariableName;TypeVariableName(String, List, List);6;4;7
+com.squareup.javapoet.TypeVariableName;get(TypeVariable, Map);4;3;12
+com.squareup.javapoet.TypeVariableName;get(TypeVariable, Map);4;3;10
+com.squareup.javapoet.TypeVariableName;get(TypeParameterElement);2;2;7
+com.squareup.javapoet.TypeVariableName;withBounds(List);0;1;4
+com.squareup.javapoet.TypeVariableName;of(String, List);0;1;3
+com.squareup.javapoet.TypeVariableName;annotated(List);0;1;1
+com.squareup.javapoet.TypeVariableName;emit(CodeWriter);0;1;2
+com.squareup.javapoet.TypeVariableName;TypeVariableName(String, List);0;1;2
+com.squareup.javapoet.TypeVariableName;withBounds(Type[]);0;1;1
+com.squareup.javapoet.TypeVariableName;get(String, TypeName[]);0;1;1
+com.squareup.javapoet.TypeVariableName;get(String, Type[]);0;1;1
+com.squareup.javapoet.TypeVariableName;get(TypeVariable);0;1;1
+com.squareup.javapoet.TypeVariableName;get(String);0;1;1
+com.squareup.javapoet.CodeWriter;emitStaticImportMember(String, String);8;5;10
+com.squareup.javapoet.CodeWriter;emit(CodeBlock, boolean);42;27;55
+com.squareup.javapoet.CodeWriter;unindent(int);2;2;3
+com.squareup.javapoet.CodeWriter;pushPackage(String);2;2;3
+com.squareup.javapoet.CodeWriter;popPackage();2;2;3
+com.squareup.javapoet.CodeWriter;CodeWriter(Appendable, String, Map, Set, Set);2;2;19
+com.squareup.javapoet.CodeWriter;emitAndIndent(String);24;13;23
+com.squareup.javapoet.CodeWriter;lookupName(ClassName);16;9;19
+com.squareup.javapoet.CodeWriter;emitTypeVariables(List);10;6;17
+com.squareup.javapoet.CodeWriter;resolve(String);10;6;9
+com.squareup.javapoet.CodeWriter;emitLiteral(Object);6;4;12
+com.squareup.javapoet.CodeWriter;extractMemberName(String);4;3;5
+com.squareup.javapoet.CodeWriter;importableType(ClassName);6;4;10
+com.squareup.javapoet.CodeWriter;emitModifiers(Set, Set);6;4;7
+com.squareup.javapoet.CodeWriter;stackClassName(int, String);2;2;4
+com.squareup.javapoet.CodeWriter;emitJavadoc(CodeBlock);2;2;7
+com.squareup.javapoet.CodeWriter;emitAnnotations(List, boolean);4;3;5
+com.squareup.javapoet.CodeWriter;emitComment(CodeBlock);0;1;6
+com.squareup.javapoet.CodeWriter;emitIndentation();2;2;3
+com.squareup.javapoet.CodeWriter;suggestedImports();0;1;3
+com.squareup.javapoet.CodeWriter;popType();0;1;2
+com.squareup.javapoet.CodeWriter;emitWrappingSpace();0;1;2
+com.squareup.javapoet.CodeWriter;CodeWriter(Appendable, String, Set, Set);0;1;2
+com.squareup.javapoet.CodeWriter;indent(int);0;1;2
+com.squareup.javapoet.CodeWriter;CodeWriter(Appendable);0;1;2
+com.squareup.javapoet.CodeWriter;pushType(TypeSpec);0;1;2
+com.squareup.javapoet.CodeWriter;emit(String, Object[]);0;1;1
+com.squareup.javapoet.CodeWriter;lambda$popTypeVariables$1(TypeVariableName);0;1;1
+com.squareup.javapoet.CodeWriter;lambda$emitTypeVariables$0(TypeVariableName);0;1;1
+com.squareup.javapoet.CodeWriter;emitModifiers(Set);0;1;2
+com.squareup.javapoet.CodeWriter;popTypeVariables(List);0;1;2
+com.squareup.javapoet.CodeWriter;emit(CodeBlock);0;1;1
+com.squareup.javapoet.CodeWriter;static {...};0;1;1
+com.squareup.javapoet.CodeWriter;indent();0;1;1
+com.squareup.javapoet.CodeWriter;unindent();0;1;1
+com.squareup.javapoet.CodeWriter;emit(String);0;1;1
+com.squareup.javapoet.CodeWriter;importedTypes();0;1;1
+com.squareup.javapoet.LineWrapper;flush(LineWrapper.FlushType);6;5;16
+com.squareup.javapoet.LineWrapper;zeroWidthSpace(int);6;4;6
+com.squareup.javapoet.LineWrapper;append(String);16;9;15
+com.squareup.javapoet.LineWrapper;wrappingSpace(int);4;3;6
+com.squareup.javapoet.LineWrapper;LineWrapper(Appendable, String, int);0;1;9
+com.squareup.javapoet.LineWrapper;close();2;2;3
+com.squareup.javapoet.LineWrapper;lastChar();0;1;1
+com.squareup.javapoet.ClassName;get(Class);12;7;16
+com.squareup.javapoet.ClassName;bestGuess(String);14;8;10
+com.squareup.javapoet.ClassName;emit(CodeWriter);14;8;20
+com.squareup.javapoet.ClassName;ClassName(String, ClassName, String, List);4;3;8
+com.squareup.javapoet.ClassName;reflectionName();4;3;3
+com.squareup.javapoet.ClassName;simpleNames();4;3;9
+com.squareup.javapoet.ClassName;get(String, String, String[]);2;2;4
+com.squareup.javapoet.ClassName;withoutAnnotations();4;3;5
+com.squareup.javapoet.ClassName;get(TypeElement);0;1;3
+com.squareup.javapoet.ClassName;enclosingClasses();2;2;5
+com.squareup.javapoet.ClassName;isAnnotated();6;4;1
+com.squareup.javapoet.ClassName;annotated(List);0;1;2
+com.squareup.javapoet.ClassName;topLevelClassName();2;2;1
+com.squareup.javapoet.ClassName;peerClass(String);0;1;1
+com.squareup.javapoet.ClassName;nestedClass(String);0;1;1
+com.squareup.javapoet.ClassName;ClassName(String, ClassName, String);0;1;2
+com.squareup.javapoet.ClassName;compareTo(ClassName);0;1;1
+com.squareup.javapoet.ClassName;static {...};0;1;1
+com.squareup.javapoet.ClassName;packageName();0;1;1
+com.squareup.javapoet.ClassName;enclosingClassName();0;1;1
+com.squareup.javapoet.ClassName;simpleName();0;1;1
+com.squareup.javapoet.ClassName;canonicalName();0;1;1
+com.squareup.javapoet.AnnotationSpec;get(Annotation, boolean);12;7;20
+com.squareup.javapoet.AnnotationSpec;equals(Object);6;4;4
+com.squareup.javapoet.AnnotationSpec;toString();0;1;6
+com.squareup.javapoet.AnnotationSpec;emit(CodeWriter, boolean);14;8;20
+com.squareup.javapoet.AnnotationSpec;emitAnnotationValues(CodeWriter, String, String, List);6;4;16
+com.squareup.javapoet.AnnotationSpec;get(AnnotationMirror);2;2;9
+com.squareup.javapoet.AnnotationSpec;toBuilder();2;2;5
+com.squareup.javapoet.AnnotationSpec;AnnotationSpec(AnnotationSpec.Builder);0;1;4
+com.squareup.javapoet.AnnotationSpec;builder(ClassName);0;1;2
+com.squareup.javapoet.AnnotationSpec;get(Annotation);0;1;1
+com.squareup.javapoet.AnnotationSpec;builder(Class);0;1;1
+com.squareup.javapoet.AnnotationSpec;hashCode();0;1;1
+com.squareup.javapoet.CodeBlock;equals(Object);6;4;4
+com.squareup.javapoet.CodeBlock;toString();0;1;5
+com.squareup.javapoet.CodeBlock;joining(String, String, String);0;1;2
+com.squareup.javapoet.CodeBlock;toBuilder();0;1;4
+com.squareup.javapoet.CodeBlock;lambda$joining$2(CodeBlock.Builder, String, CodeBlock.CodeBlockJoiner);0;1;2
+com.squareup.javapoet.CodeBlock;CodeBlock(CodeBlock.Builder);0;1;4
+com.squareup.javapoet.CodeBlock;of(String, Object[]);0;1;1
+com.squareup.javapoet.CodeBlock;join(Iterable, String);0;1;1
+com.squareup.javapoet.CodeBlock;joining(String);0;1;1
+com.squareup.javapoet.CodeBlock;static {...};0;1;3
+com.squareup.javapoet.CodeBlock;lambda$joining$1(String, CodeBlock.Builder);0;1;1
+com.squareup.javapoet.CodeBlock;lambda$joining$0(String);0;1;1
+com.squareup.javapoet.CodeBlock;builder();0;1;1
+com.squareup.javapoet.CodeBlock;isEmpty();0;1;1
+com.squareup.javapoet.CodeBlock;hashCode();0;1;1
+com.squareup.javapoet.TypeSpec;equals(Object);6;4;4
+com.squareup.javapoet.TypeSpec;toString();0;1;6
+com.squareup.javapoet.TypeSpec;hasModifier(Modifier);0;1;1
+com.squareup.javapoet.TypeSpec;TypeSpec(TypeSpec);2;2;21
+com.squareup.javapoet.TypeSpec;emit(CodeWriter, String, Set);84;43;112
+com.squareup.javapoet.TypeSpec;TypeSpec(TypeSpec.Builder);2;2;26
+com.squareup.javapoet.TypeSpec;toBuilder();0;1;16
+com.squareup.javapoet.TypeSpec;classBuilder(String);0;1;1
+com.squareup.javapoet.TypeSpec;interfaceBuilder(String);0;1;1
+com.squareup.javapoet.TypeSpec;enumBuilder(String);0;1;1
+com.squareup.javapoet.TypeSpec;annotationBuilder(String);0;1;1
+com.squareup.javapoet.TypeSpec;classBuilder(ClassName);0;1;1
+com.squareup.javapoet.TypeSpec;interfaceBuilder(ClassName);0;1;1
+com.squareup.javapoet.TypeSpec;enumBuilder(ClassName);0;1;1
+com.squareup.javapoet.TypeSpec;annotationBuilder(ClassName);0;1;1
+com.squareup.javapoet.TypeSpec;anonymousClassBuilder(CodeBlock);0;1;1
+com.squareup.javapoet.TypeSpec;anonymousClassBuilder(String, Object[]);0;1;1
+com.squareup.javapoet.TypeSpec;hashCode();0;1;1
+com.squareup.javapoet.TypeSpec;static {...};0;1;1
+com.squareup.javapoet.ParameterSpec;toBuilder();0;1;1
+com.squareup.javapoet.ParameterSpec;equals(Object);6;4;4
+com.squareup.javapoet.ParameterSpec;toString();0;1;6
+com.squareup.javapoet.ParameterSpec;hasModifier(Modifier);0;1;1
+com.squareup.javapoet.ParameterSpec;ParameterSpec(ParameterSpec.Builder);0;1;7
+com.squareup.javapoet.ParameterSpec;emit(CodeWriter, boolean);2;2;7
+com.squareup.javapoet.ParameterSpec;get(VariableElement);0;1;6
+com.squareup.javapoet.ParameterSpec;isValidParameterName(String);6;4;3
+com.squareup.javapoet.ParameterSpec;builder(TypeName, String, Modifier[]);0;1;4
+com.squareup.javapoet.ParameterSpec;parametersOf(ExecutableElement);2;2;5
+com.squareup.javapoet.ParameterSpec;toBuilder(TypeName, String);0;1;4
+com.squareup.javapoet.ParameterSpec;builder(Type, String, Modifier[]);0;1;1
+com.squareup.javapoet.ParameterSpec;hashCode();0;1;1
+com.squareup.javapoet.JavaFile;toBuilder();0;1;5
+com.squareup.javapoet.JavaFile;equals(Object);6;4;4
+com.squareup.javapoet.JavaFile;writeTo(Filer);2;2;15
+com.squareup.javapoet.JavaFile;writeToFile(File);0;1;2
+com.squareup.javapoet.JavaFile;writeTo(Path, Charset);0;1;2
+com.squareup.javapoet.JavaFile;toString();0;1;5
+com.squareup.javapoet.JavaFile;hashCode();0;1;1
+com.squareup.javapoet.JavaFile;emit(CodeWriter);18;10;25
+com.squareup.javapoet.JavaFile;writeToPath(Path, Charset);8;5;10
+com.squareup.javapoet.JavaFile;JavaFile(JavaFile.Builder);0;1;11
+com.squareup.javapoet.JavaFile;toJavaFileObject();2;2;4
+com.squareup.javapoet.JavaFile;writeTo(Appendable);0;1;6
+com.squareup.javapoet.JavaFile;fillAlwaysQualifiedNames(TypeSpec, Set);2;2;5
+com.squareup.javapoet.JavaFile;builder(String, TypeSpec);0;1;3
+com.squareup.javapoet.JavaFile;writeTo(Path);0;1;2
+com.squareup.javapoet.JavaFile;writeToPath(Path);0;1;1
+com.squareup.javapoet.JavaFile;writeTo(File);0;1;2
+com.squareup.javapoet.JavaFile;static {...};0;1;1
+com.squareup.javapoet.FieldSpec;toBuilder();2;2;6
+com.squareup.javapoet.FieldSpec;equals(Object);6;4;4
+com.squareup.javapoet.FieldSpec;toString();0;1;6
+com.squareup.javapoet.FieldSpec;emit(CodeWriter, Set);2;2;9
+com.squareup.javapoet.FieldSpec;FieldSpec(FieldSpec.Builder);2;2;10
+com.squareup.javapoet.FieldSpec;builder(TypeName, String, Modifier[]);0;1;4
+com.squareup.javapoet.FieldSpec;builder(Type, String, Modifier[]);0;1;1
+com.squareup.javapoet.FieldSpec;hasModifier(Modifier);0;1;1
+com.squareup.javapoet.FieldSpec;hashCode();0;1;1
+com.squareup.javapoet.MethodSpec;equals(Object);6;4;4
+com.squareup.javapoet.MethodSpec;toString();0;1;6
+com.squareup.javapoet.MethodSpec;MethodSpec(MethodSpec.Builder);8;5;18
+com.squareup.javapoet.MethodSpec;lastParameterIsArray(List);4;3;2
+com.squareup.javapoet.MethodSpec;emit(CodeWriter, String, Set);26;14;40
+com.squareup.javapoet.MethodSpec;overriding(ExecutableElement);12;7;27
+com.squareup.javapoet.MethodSpec;overriding(ExecutableElement, DeclaredType, Types);4;3;14
+com.squareup.javapoet.MethodSpec;toBuilder();0;1;12
+com.squareup.javapoet.MethodSpec;javadocWithParameters();8;5;9
+com.squareup.javapoet.MethodSpec;methodBuilder(String);0;1;1
+com.squareup.javapoet.MethodSpec;constructorBuilder();0;1;1
+com.squareup.javapoet.MethodSpec;hasModifier(Modifier);0;1;1
+com.squareup.javapoet.MethodSpec;isConstructor();0;1;1
+com.squareup.javapoet.MethodSpec;hashCode();0;1;1
+com.squareup.javapoet.ArrayTypeName;withoutAnnotations();0;1;1
+com.squareup.javapoet.ArrayTypeName;get(ArrayType);0;1;1
+com.squareup.javapoet.ArrayTypeName;get(GenericArrayType);0;1;1
+com.squareup.javapoet.ArrayTypeName;emitBrackets(CodeWriter, boolean);6;4;7
+com.squareup.javapoet.ArrayTypeName;emitLeafType(CodeWriter);2;2;3
+com.squareup.javapoet.ArrayTypeName;ArrayTypeName(TypeName, List);0;1;3
+com.squareup.javapoet.ArrayTypeName;annotated(List);0;1;1
+com.squareup.javapoet.ArrayTypeName;emit(CodeWriter, boolean);0;1;2
+com.squareup.javapoet.ArrayTypeName;get(ArrayType, Map);0;1;1
+com.squareup.javapoet.ArrayTypeName;ArrayTypeName(TypeName);0;1;2
+com.squareup.javapoet.ArrayTypeName;get(GenericArrayType, Map);0;1;1
+com.squareup.javapoet.ArrayTypeName;emit(CodeWriter);0;1;1
+com.squareup.javapoet.ArrayTypeName;of(TypeName);0;1;1
+com.squareup.javapoet.ArrayTypeName;of(Type);0;1;1
+com.squareup.javapoet.NameAllocator;newName(String, Object);6;4;10
+com.squareup.javapoet.NameAllocator;toJavaIdentifier(String);10;6;12
+com.squareup.javapoet.NameAllocator;get(Object);2;2;4
+com.squareup.javapoet.NameAllocator;clone();0;1;1
+com.squareup.javapoet.NameAllocator;NameAllocator();0;1;2
+com.squareup.javapoet.NameAllocator;NameAllocator(LinkedHashSet, LinkedHashMap);0;1;4
+com.squareup.javapoet.NameAllocator;newName(String);0;1;1
+com.squareup.javapoet.ParameterizedTypeName;nestedClass(String);0;1;2
+com.squareup.javapoet.ParameterizedTypeName;withoutAnnotations();0;1;2
+com.squareup.javapoet.ParameterizedTypeName;emit(CodeWriter);10;6;18
+com.squareup.javapoet.ParameterizedTypeName;get(ParameterizedType);0;1;1
+com.squareup.javapoet.ParameterizedTypeName;ParameterizedTypeName(ParameterizedTypeName, ClassName, List, List);10;6;9
+com.squareup.javapoet.ParameterizedTypeName;get(ParameterizedType, Map);6;4;8
+com.squareup.javapoet.ParameterizedTypeName;nestedClass(String, List);0;1;2
+com.squareup.javapoet.ParameterizedTypeName;annotated(List);0;1;2
+com.squareup.javapoet.ParameterizedTypeName;ParameterizedTypeName(ParameterizedTypeName, ClassName, List);0;1;2
+com.squareup.javapoet.ParameterizedTypeName;get(Class, Type[]);0;1;1
+com.squareup.javapoet.ParameterizedTypeName;get(ClassName, TypeName[]);0;1;1

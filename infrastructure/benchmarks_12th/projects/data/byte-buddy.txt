@@ -1,0 +1,1660 @@
+class;method;num_branches;complexity;loc
+net.bytebuddy.implementation.bytecode.constant.FieldConstant;apply(MethodVisitor, Implementation.Context);0;1;7
+net.bytebuddy.implementation.bytecode.constant.FieldConstant;equals(Object);6;4;6
+net.bytebuddy.implementation.bytecode.constant.FieldConstant;hashCode();0;1;1
+net.bytebuddy.implementation.bytecode.constant.FieldConstant;FieldConstant(FieldDescription.InDefinedShape);0;1;3
+net.bytebuddy.implementation.bytecode.constant.FieldConstant;cached();0;1;1
+net.bytebuddy.implementation.bytecode.constant.DoubleConstant;static {...};0;1;4
+net.bytebuddy.implementation.bytecode.constant.DoubleConstant;forValue(double);4;3;5
+net.bytebuddy.implementation.bytecode.constant.DoubleConstant;DoubleConstant(String, int, int);0;1;3
+net.bytebuddy.implementation.bytecode.constant.DoubleConstant;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.constant.DoubleConstant;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.constant.TextConstant;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.constant.TextConstant;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.constant.TextConstant;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.constant.TextConstant;TextConstant(String);0;1;3
+net.bytebuddy.implementation.bytecode.constant.ClassConstant;static {...};0;1;11
+net.bytebuddy.implementation.bytecode.constant.ClassConstant;of(TypeDescription);18;10;19
+net.bytebuddy.implementation.bytecode.constant.ClassConstant;ClassConstant(String, int, Class);0;1;3
+net.bytebuddy.implementation.bytecode.constant.ClassConstant;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.constant.ClassConstant;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.constant.NullConstant;static {...};0;1;2
+net.bytebuddy.implementation.bytecode.constant.NullConstant;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.constant.NullConstant;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.constant.FloatConstant;static {...};0;1;5
+net.bytebuddy.implementation.bytecode.constant.FloatConstant;forValue(float);6;4;7
+net.bytebuddy.implementation.bytecode.constant.FloatConstant;FloatConstant(String, int, int);0;1;3
+net.bytebuddy.implementation.bytecode.constant.FloatConstant;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.constant.FloatConstant;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.constant.SerializedConstant;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.constant.SerializedConstant;of(Serializable);2;2;11
+net.bytebuddy.implementation.bytecode.constant.SerializedConstant;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.constant.SerializedConstant;apply(MethodVisitor, Implementation.Context);0;1;10
+net.bytebuddy.implementation.bytecode.constant.SerializedConstant;SerializedConstant(String);0;1;3
+net.bytebuddy.implementation.bytecode.constant.JavaConstantValue;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.constant.JavaConstantValue;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.constant.JavaConstantValue;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.constant.JavaConstantValue;JavaConstantValue(JavaConstant);0;1;3
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;doPrivileged();2;2;9
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;ofPrivileged(MethodDescription.InDefinedShape);6;4;7
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;equals(Object);6;4;6
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;apply(MethodVisitor, Implementation.Context);0;1;7
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;typeConstantsFor(List);2;2;5
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;of(MethodDescription.InDefinedShape);4;3;5
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;withPrivilegedLookup();0;1;1
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;MethodConstant(MethodDescription.InDefinedShape);0;1;3
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;hashCode();0;1;1
+net.bytebuddy.implementation.bytecode.constant.MethodConstant;static {...};0;1;1
+net.bytebuddy.implementation.bytecode.constant.DefaultValue;static {...};0;1;7
+net.bytebuddy.implementation.bytecode.constant.DefaultValue;of(TypeDefinition);10;6;11
+net.bytebuddy.implementation.bytecode.constant.DefaultValue;DefaultValue(String, int, StackManipulation);0;1;3
+net.bytebuddy.implementation.bytecode.constant.DefaultValue;apply(MethodVisitor, Implementation.Context);0;1;1
+net.bytebuddy.implementation.bytecode.constant.DefaultValue;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.constant.IntegerConstant;static {...};0;1;9
+net.bytebuddy.implementation.bytecode.constant.IntegerConstant;forValue(int);16;12;13
+net.bytebuddy.implementation.bytecode.constant.IntegerConstant;IntegerConstant(String, int, int);0;1;3
+net.bytebuddy.implementation.bytecode.constant.IntegerConstant;forValue(boolean);2;2;1
+net.bytebuddy.implementation.bytecode.constant.IntegerConstant;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.constant.IntegerConstant;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.constant.LongConstant;static {...};0;1;4
+net.bytebuddy.implementation.bytecode.constant.LongConstant;forValue(long);4;3;5
+net.bytebuddy.implementation.bytecode.constant.LongConstant;LongConstant(String, int, int);0;1;3
+net.bytebuddy.implementation.bytecode.constant.LongConstant;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.constant.LongConstant;isValid();0;1;1
+net.bytebuddy.implementation.auxiliary.MethodCallProxy;equals(Object);12;7;0
+net.bytebuddy.implementation.auxiliary.MethodCallProxy;make(String, ClassFileVersion, MethodAccessorFactory);4;3;16
+net.bytebuddy.implementation.auxiliary.MethodCallProxy;extractFields(MethodDescription);4;3;8
+net.bytebuddy.implementation.auxiliary.MethodCallProxy;hashCode();0;1;0
+net.bytebuddy.implementation.auxiliary.MethodCallProxy;getSuffix();2;2;1
+net.bytebuddy.implementation.auxiliary.MethodCallProxy;MethodCallProxy(Implementation.SpecialMethodInvocation, boolean, Assigner);0;1;5
+net.bytebuddy.implementation.auxiliary.MethodCallProxy;fieldName(int);0;1;1
+net.bytebuddy.implementation.auxiliary.MethodCallProxy;MethodCallProxy(Implementation.SpecialMethodInvocation, boolean);0;1;2
+net.bytebuddy.implementation.auxiliary.PrivilegedMemberLookupAction;PrivilegedMemberLookupAction(String, int, String, String, Class, String, Class);0;1;9
+net.bytebuddy.implementation.auxiliary.PrivilegedMemberLookupAction;PrivilegedMemberLookupAction(String, int, String, String, Class);0;1;7
+net.bytebuddy.implementation.auxiliary.PrivilegedMemberLookupAction;of(MethodDescription);8;5;5
+net.bytebuddy.implementation.auxiliary.PrivilegedMemberLookupAction;make(String, ClassFileVersion, MethodAccessorFactory);4;3;22
+net.bytebuddy.implementation.auxiliary.PrivilegedMemberLookupAction;static {...};0;1;8
+net.bytebuddy.implementation.auxiliary.PrivilegedMemberLookupAction;getSuffix();0;1;1
+net.bytebuddy.implementation.auxiliary.AuxiliaryType;static {...};0;1;1
+net.bytebuddy.implementation.auxiliary.TrivialType;make(String, ClassFileVersion, MethodAccessorFactory);2;2;10
+net.bytebuddy.implementation.auxiliary.TrivialType;static {...};0;1;3
+net.bytebuddy.implementation.auxiliary.TrivialType;TrivialType(String, int, boolean);0;1;3
+net.bytebuddy.implementation.auxiliary.TrivialType;getSuffix();0;1;1
+net.bytebuddy.implementation.auxiliary.TypeProxy;equals(Object);16;9;0
+net.bytebuddy.implementation.auxiliary.TypeProxy;getSuffix();4;3;1
+net.bytebuddy.implementation.auxiliary.TypeProxy;make(String, ClassFileVersion, MethodAccessorFactory);4;3;10
+net.bytebuddy.implementation.auxiliary.TypeProxy;hashCode();0;1;0
+net.bytebuddy.implementation.auxiliary.TypeProxy;TypeProxy(TypeDescription, Implementation.Target, TypeProxy.InvocationFactory, boolean, boolean);0;1;7
+net.bytebuddy.description.modifier.ParameterManifestation;static {...};0;1;3
+net.bytebuddy.description.modifier.ParameterManifestation;ParameterManifestation(String, int, int);0;1;3
+net.bytebuddy.description.modifier.ParameterManifestation;isDefault();2;2;1
+net.bytebuddy.description.modifier.ParameterManifestation;isFinal();2;2;1
+net.bytebuddy.description.modifier.ParameterManifestation;getMask();0;1;1
+net.bytebuddy.description.modifier.ParameterManifestation;getRange();0;1;1
+net.bytebuddy.description.modifier.MethodManifestation;static {...};0;1;8
+net.bytebuddy.description.modifier.MethodManifestation;isNative();2;2;1
+net.bytebuddy.description.modifier.MethodManifestation;isAbstract();2;2;1
+net.bytebuddy.description.modifier.MethodManifestation;isFinal();2;2;1
+net.bytebuddy.description.modifier.MethodManifestation;isBridge();2;2;1
+net.bytebuddy.description.modifier.MethodManifestation;MethodManifestation(String, int, int);0;1;3
+net.bytebuddy.description.modifier.MethodManifestation;isDefault();2;2;1
+net.bytebuddy.description.modifier.MethodManifestation;getMask();0;1;1
+net.bytebuddy.description.modifier.MethodManifestation;getRange();0;1;1
+net.bytebuddy.description.modifier.ProvisioningState;static {...};0;1;3
+net.bytebuddy.description.modifier.ProvisioningState;ProvisioningState(String, int, int);0;1;3
+net.bytebuddy.description.modifier.ProvisioningState;isDefault();2;2;1
+net.bytebuddy.description.modifier.ProvisioningState;isMandated();2;2;1
+net.bytebuddy.description.modifier.ProvisioningState;getMask();0;1;1
+net.bytebuddy.description.modifier.ProvisioningState;getRange();0;1;1
+net.bytebuddy.description.modifier.MethodStrictness;static {...};0;1;3
+net.bytebuddy.description.modifier.MethodStrictness;MethodStrictness(String, int, int);0;1;3
+net.bytebuddy.description.modifier.MethodStrictness;isDefault();2;2;1
+net.bytebuddy.description.modifier.MethodStrictness;isStrict();2;2;1
+net.bytebuddy.description.modifier.MethodStrictness;getMask();0;1;1
+net.bytebuddy.description.modifier.MethodStrictness;getRange();0;1;1
+net.bytebuddy.description.modifier.SyntheticState;static {...};0;1;3
+net.bytebuddy.description.modifier.SyntheticState;SyntheticState(String, int, int);0;1;3
+net.bytebuddy.description.modifier.SyntheticState;isDefault();2;2;1
+net.bytebuddy.description.modifier.SyntheticState;isSynthetic();2;2;1
+net.bytebuddy.description.modifier.SyntheticState;getMask();0;1;1
+net.bytebuddy.description.modifier.SyntheticState;getRange();0;1;1
+net.bytebuddy.description.modifier.Visibility;expandTo(Visibility);9;7;6
+net.bytebuddy.description.modifier.Visibility;static {...};0;1;5
+net.bytebuddy.description.modifier.Visibility;isPackagePrivate();6;4;1
+net.bytebuddy.description.modifier.Visibility;isPublic();2;2;1
+net.bytebuddy.description.modifier.Visibility;isProtected();2;2;1
+net.bytebuddy.description.modifier.Visibility;isPrivate();2;2;1
+net.bytebuddy.description.modifier.Visibility;Visibility(String, int, int);0;1;3
+net.bytebuddy.description.modifier.Visibility;isDefault();2;2;1
+net.bytebuddy.description.modifier.Visibility;getMask();0;1;1
+net.bytebuddy.description.modifier.Visibility;getRange();0;1;1
+net.bytebuddy.description.modifier.TypeManifestation;static {...};0;1;6
+net.bytebuddy.description.modifier.TypeManifestation;isAbstract();4;3;1
+net.bytebuddy.description.modifier.TypeManifestation;isFinal();2;2;1
+net.bytebuddy.description.modifier.TypeManifestation;isInterface();2;2;1
+net.bytebuddy.description.modifier.TypeManifestation;isAnnotation();2;2;1
+net.bytebuddy.description.modifier.TypeManifestation;TypeManifestation(String, int, int);0;1;3
+net.bytebuddy.description.modifier.TypeManifestation;isDefault();2;2;1
+net.bytebuddy.description.modifier.TypeManifestation;getMask();0;1;1
+net.bytebuddy.description.modifier.TypeManifestation;getRange();0;1;1
+net.bytebuddy.description.modifier.EnumerationState;static {...};0;1;3
+net.bytebuddy.description.modifier.EnumerationState;EnumerationState(String, int, int);0;1;3
+net.bytebuddy.description.modifier.EnumerationState;isDefault();2;2;1
+net.bytebuddy.description.modifier.EnumerationState;isEnumeration();2;2;1
+net.bytebuddy.description.modifier.EnumerationState;getMask();0;1;1
+net.bytebuddy.description.modifier.EnumerationState;getRange();0;1;1
+net.bytebuddy.description.modifier.Mandate;getRange();0;1;1
+net.bytebuddy.description.modifier.Mandate;static {...};0;1;3
+net.bytebuddy.description.modifier.Mandate;Mandate(String, int, int);0;1;3
+net.bytebuddy.description.modifier.Mandate;isDefault();2;2;1
+net.bytebuddy.description.modifier.Mandate;isMandated();2;2;1
+net.bytebuddy.description.modifier.Mandate;getMask();0;1;1
+net.bytebuddy.description.modifier.FieldManifestation;static {...};0;1;4
+net.bytebuddy.description.modifier.FieldManifestation;isPlain();4;3;1
+net.bytebuddy.description.modifier.FieldManifestation;isFinal();2;2;1
+net.bytebuddy.description.modifier.FieldManifestation;isVolatile();2;2;1
+net.bytebuddy.description.modifier.FieldManifestation;FieldManifestation(String, int, int);0;1;3
+net.bytebuddy.description.modifier.FieldManifestation;isDefault();2;2;1
+net.bytebuddy.description.modifier.FieldManifestation;getMask();0;1;1
+net.bytebuddy.description.modifier.FieldManifestation;getRange();0;1;1
+net.bytebuddy.description.modifier.SynchronizationState;static {...};0;1;3
+net.bytebuddy.description.modifier.SynchronizationState;SynchronizationState(String, int, int);0;1;3
+net.bytebuddy.description.modifier.SynchronizationState;isDefault();2;2;1
+net.bytebuddy.description.modifier.SynchronizationState;isSynchronized();2;2;1
+net.bytebuddy.description.modifier.SynchronizationState;getMask();0;1;1
+net.bytebuddy.description.modifier.SynchronizationState;getRange();0;1;1
+net.bytebuddy.description.modifier.MethodArguments;static {...};0;1;3
+net.bytebuddy.description.modifier.MethodArguments;MethodArguments(String, int, int);0;1;3
+net.bytebuddy.description.modifier.MethodArguments;isDefault();2;2;1
+net.bytebuddy.description.modifier.MethodArguments;isVarArgs();2;2;1
+net.bytebuddy.description.modifier.MethodArguments;getMask();0;1;1
+net.bytebuddy.description.modifier.MethodArguments;getRange();0;1;1
+net.bytebuddy.description.modifier.FieldPersistence;static {...};0;1;3
+net.bytebuddy.description.modifier.FieldPersistence;isTransient();2;2;1
+net.bytebuddy.description.modifier.FieldPersistence;FieldPersistence(String, int, int);0;1;3
+net.bytebuddy.description.modifier.FieldPersistence;isDefault();2;2;1
+net.bytebuddy.description.modifier.FieldPersistence;getMask();0;1;1
+net.bytebuddy.description.modifier.FieldPersistence;getRange();0;1;1
+net.bytebuddy.description.modifier.Ownership;static {...};0;1;3
+net.bytebuddy.description.modifier.Ownership;Ownership(String, int, int);0;1;3
+net.bytebuddy.description.modifier.Ownership;isDefault();2;2;1
+net.bytebuddy.description.modifier.Ownership;isStatic();2;2;1
+net.bytebuddy.description.modifier.Ownership;getMask();0;1;1
+net.bytebuddy.description.modifier.Ownership;getRange();0;1;1
+net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder;equals(Object);8;5;0
+net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder;hashCode();0;1;0
+net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder;compile(MethodDescription);4;3;7
+net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder;TargetMethodAnnotationDrivenBinder(TargetMethodAnnotationDrivenBinder.DelegationProcessor);0;1;3
+net.bytebuddy.implementation.bind.annotation.TargetMethodAnnotationDrivenBinder;of(List);0;1;1
+net.bytebuddy.matcher.MethodOverrideMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.MethodOverrideMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.MethodOverrideMatcher;doMatch(MethodDescription);6;4;6
+net.bytebuddy.matcher.MethodOverrideMatcher;matches(MethodDescription, List, Set);8;5;5
+net.bytebuddy.matcher.MethodOverrideMatcher;matches(MethodDescription, TypeDefinition);6;4;6
+net.bytebuddy.matcher.MethodOverrideMatcher;toString();0;1;1
+net.bytebuddy.matcher.MethodOverrideMatcher;MethodOverrideMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.RecordMatcher;equals(Object);8;5;0
+net.bytebuddy.matcher.RecordMatcher;RecordMatcher();0;1;1
+net.bytebuddy.matcher.RecordMatcher;doMatch(TypeDefinition);0;1;1
+net.bytebuddy.matcher.RecordMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.RecordMatcher;toString();0;1;1
+net.bytebuddy.matcher.StringSetMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.StringSetMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.StringSetMatcher;toString();4;3;9
+net.bytebuddy.matcher.StringSetMatcher;StringSetMatcher(Set);0;1;3
+net.bytebuddy.matcher.StringSetMatcher;doMatch(String);0;1;1
+net.bytebuddy.matcher.SuperTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.SuperTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.SuperTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.SuperTypeMatcher;SuperTypeMatcher(TypeDescription);0;1;3
+net.bytebuddy.matcher.SuperTypeMatcher;doMatch(TypeDescription);0;1;1
+net.bytebuddy.matcher.MethodParameterTypesMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.MethodParameterTypesMatcher;toString();0;1;1
+net.bytebuddy.matcher.MethodParameterTypesMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.MethodParameterTypesMatcher;MethodParameterTypesMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.MethodParameterTypesMatcher;doMatch(ParameterList);0;1;1
+net.bytebuddy.matcher.MethodParametersMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.MethodParametersMatcher;toString();0;1;1
+net.bytebuddy.matcher.MethodParametersMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.MethodParametersMatcher;MethodParametersMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.MethodParametersMatcher;doMatch(MethodDescription);0;1;1
+net.bytebuddy.matcher.AccessibilityMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.AccessibilityMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.AccessibilityMatcher;toString();0;1;1
+net.bytebuddy.matcher.AccessibilityMatcher;AccessibilityMatcher(TypeDescription);0;1;3
+net.bytebuddy.matcher.AccessibilityMatcher;doMatch(ByteCodeElement);0;1;1
+net.bytebuddy.matcher.SubTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.SubTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.SubTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.SubTypeMatcher;SubTypeMatcher(TypeDescription);0;1;3
+net.bytebuddy.matcher.SubTypeMatcher;doMatch(TypeDescription);0;1;1
+net.bytebuddy.matcher.DeclaringMethodMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.DeclaringMethodMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.DeclaringMethodMatcher;toString();0;1;1
+net.bytebuddy.matcher.DeclaringMethodMatcher;DeclaringMethodMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.DeclaringMethodMatcher;doMatch(TypeDefinition);0;1;1
+net.bytebuddy.matcher.InstanceTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.InstanceTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.InstanceTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.InstanceTypeMatcher;doMatch(Object);0;1;1
+net.bytebuddy.matcher.InstanceTypeMatcher;InstanceTypeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.AnnotationTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.AnnotationTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.AnnotationTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.AnnotationTypeMatcher;AnnotationTypeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.AnnotationTypeMatcher;doMatch(AnnotationDescription);0;1;1
+net.bytebuddy.matcher.CachingMatcher;equals(Object);6;4;0
+net.bytebuddy.matcher.CachingMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.CachingMatcher;matches(Object);4;3;4
+net.bytebuddy.matcher.CachingMatcher;onCacheMiss(Object);2;2;4
+net.bytebuddy.matcher.CachingMatcher;toString();0;1;1
+net.bytebuddy.matcher.CachingMatcher;CachingMatcher(ElementMatcher, ConcurrentMap);0;1;4
+net.bytebuddy.matcher.CachingMatcher;static {...};0;1;1
+net.bytebuddy.matcher.CollectionElementMatcher;equals(Object);12;7;0
+net.bytebuddy.matcher.CollectionElementMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.CollectionElementMatcher;doMatch(Iterable);8;5;6
+net.bytebuddy.matcher.CollectionElementMatcher;toString();0;1;1
+net.bytebuddy.matcher.CollectionElementMatcher;CollectionElementMatcher(int, ElementMatcher);0;1;4
+net.bytebuddy.matcher.CollectionSizeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.CollectionSizeMatcher;doMatch(Iterable);8;5;7
+net.bytebuddy.matcher.CollectionSizeMatcher;toString();0;1;1
+net.bytebuddy.matcher.CollectionSizeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.CollectionSizeMatcher;CollectionSizeMatcher(int);0;1;3
+net.bytebuddy.matcher.DefinedShapeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.DefinedShapeMatcher;toString();0;1;1
+net.bytebuddy.matcher.DefinedShapeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.DefinedShapeMatcher;DefinedShapeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.DefinedShapeMatcher;doMatch(ByteCodeElement.TypeDependant);0;1;1
+net.bytebuddy.matcher.StringMatcher;equals(Object);12;7;0
+net.bytebuddy.matcher.StringMatcher;toString();0;1;1
+net.bytebuddy.matcher.StringMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.StringMatcher;StringMatcher(String, StringMatcher.Mode);0;1;4
+net.bytebuddy.matcher.StringMatcher;doMatch(String);0;1;1
+net.bytebuddy.matcher.DeclaringAnnotationMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.DeclaringAnnotationMatcher;toString();0;1;1
+net.bytebuddy.matcher.DeclaringAnnotationMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.DeclaringAnnotationMatcher;DeclaringAnnotationMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.DeclaringAnnotationMatcher;doMatch(AnnotationSource);0;1;1
+net.bytebuddy.matcher.TypeSortMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.TypeSortMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.TypeSortMatcher;toString();0;1;1
+net.bytebuddy.matcher.TypeSortMatcher;TypeSortMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.TypeSortMatcher;doMatch(TypeDefinition);0;1;1
+net.bytebuddy.matcher.DeclaringFieldMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.DeclaringFieldMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.DeclaringFieldMatcher;toString();0;1;1
+net.bytebuddy.matcher.DeclaringFieldMatcher;DeclaringFieldMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.DeclaringFieldMatcher;doMatch(TypeDefinition);0;1;1
+net.bytebuddy.matcher.HasSuperClassMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.HasSuperClassMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.HasSuperClassMatcher;doMatch(TypeDescription);6;4;7
+net.bytebuddy.matcher.HasSuperClassMatcher;toString();0;1;1
+net.bytebuddy.matcher.HasSuperClassMatcher;HasSuperClassMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.MethodReturnTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.MethodReturnTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.MethodReturnTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.MethodReturnTypeMatcher;MethodReturnTypeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.MethodReturnTypeMatcher;doMatch(MethodDescription);0;1;1
+net.bytebuddy.matcher.FailSafeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.FailSafeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.FailSafeMatcher;toString();0;1;1
+net.bytebuddy.matcher.FailSafeMatcher;FailSafeMatcher(ElementMatcher, boolean);0;1;4
+net.bytebuddy.matcher.FailSafeMatcher;matches(Object);0;1;3
+net.bytebuddy.matcher.NameMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.NameMatcher;toString();0;1;1
+net.bytebuddy.matcher.NameMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.NameMatcher;NameMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.NameMatcher;doMatch(NamedElement);0;1;1
+net.bytebuddy.matcher.ArrayTypeMatcher;equals(Object);8;5;0
+net.bytebuddy.matcher.ArrayTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.ArrayTypeMatcher;ArrayTypeMatcher();0;1;1
+net.bytebuddy.matcher.ArrayTypeMatcher;doMatch(TypeDefinition);0;1;1
+net.bytebuddy.matcher.ArrayTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.MethodExceptionTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.MethodExceptionTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.MethodExceptionTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.MethodExceptionTypeMatcher;MethodExceptionTypeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.MethodExceptionTypeMatcher;doMatch(MethodDescription);0;1;1
+net.bytebuddy.matcher.NegatingMatcher;equals(Object);8;5;0
+net.bytebuddy.matcher.NegatingMatcher;toString();0;1;1
+net.bytebuddy.matcher.NegatingMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.NegatingMatcher;matches(Object);2;2;1
+net.bytebuddy.matcher.NegatingMatcher;NegatingMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.InheritedAnnotationMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.InheritedAnnotationMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.InheritedAnnotationMatcher;toString();0;1;1
+net.bytebuddy.matcher.InheritedAnnotationMatcher;InheritedAnnotationMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.InheritedAnnotationMatcher;doMatch(TypeDescription);0;1;1
+net.bytebuddy.matcher.SignatureTokenMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.SignatureTokenMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.SignatureTokenMatcher;toString();0;1;1
+net.bytebuddy.matcher.SignatureTokenMatcher;SignatureTokenMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.SignatureTokenMatcher;doMatch(MethodDescription);0;1;1
+net.bytebuddy.matcher.AnnotationTargetMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.AnnotationTargetMatcher;toString();0;1;1
+net.bytebuddy.matcher.AnnotationTargetMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.AnnotationTargetMatcher;AnnotationTargetMatcher(ElementType);0;1;3
+net.bytebuddy.matcher.AnnotationTargetMatcher;doMatch(AnnotationDescription);0;1;1
+net.bytebuddy.matcher.DeclaringTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.DeclaringTypeMatcher;doMatch(DeclaredByType);4;3;2
+net.bytebuddy.matcher.DeclaringTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.DeclaringTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.DeclaringTypeMatcher;DeclaringTypeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.BooleanMatcher;equals(Object);8;5;0
+net.bytebuddy.matcher.BooleanMatcher;static {...};0;1;2
+net.bytebuddy.matcher.BooleanMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.BooleanMatcher;of(boolean);2;2;1
+net.bytebuddy.matcher.BooleanMatcher;BooleanMatcher(boolean);0;1;3
+net.bytebuddy.matcher.BooleanMatcher;toString();0;1;1
+net.bytebuddy.matcher.BooleanMatcher;matches(Object);0;1;1
+net.bytebuddy.matcher.CollectionErasureMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.CollectionErasureMatcher;doMatch(Iterable);2;2;5
+net.bytebuddy.matcher.CollectionErasureMatcher;toString();0;1;1
+net.bytebuddy.matcher.CollectionErasureMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.CollectionErasureMatcher;CollectionErasureMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.NullMatcher;equals(Object);6;4;0
+net.bytebuddy.matcher.NullMatcher;static {...};0;1;1
+net.bytebuddy.matcher.NullMatcher;matches(Object);2;2;1
+net.bytebuddy.matcher.NullMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.NullMatcher;NullMatcher();0;1;1
+net.bytebuddy.matcher.NullMatcher;make();0;1;1
+net.bytebuddy.matcher.NullMatcher;toString();0;1;1
+net.bytebuddy.matcher.ClassLoaderHierarchyMatcher;equals(Object);8;5;0
+net.bytebuddy.matcher.ClassLoaderHierarchyMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.ClassLoaderHierarchyMatcher;matches(ClassLoader);4;3;6
+net.bytebuddy.matcher.ClassLoaderHierarchyMatcher;toString();0;1;1
+net.bytebuddy.matcher.ClassLoaderHierarchyMatcher;ClassLoaderHierarchyMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.MethodSortMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.MethodSortMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.MethodSortMatcher;MethodSortMatcher(MethodSortMatcher.Sort);0;1;3
+net.bytebuddy.matcher.MethodSortMatcher;doMatch(MethodDescription);0;1;1
+net.bytebuddy.matcher.MethodSortMatcher;toString();0;1;1
+net.bytebuddy.matcher.MethodSortMatcher;of(MethodSortMatcher.Sort);0;1;1
+net.bytebuddy.matcher.ClassFileVersionMatcher;equals(Object);12;7;0
+net.bytebuddy.matcher.ClassFileVersionMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.ClassFileVersionMatcher;toString();2;2;1
+net.bytebuddy.matcher.ClassFileVersionMatcher;doMatch(TypeDescription);8;5;2
+net.bytebuddy.matcher.ClassFileVersionMatcher;ClassFileVersionMatcher(ClassFileVersion, boolean);0;1;4
+net.bytebuddy.matcher.CollectionOneToOneMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.CollectionOneToOneMatcher;doMatch(Iterable);10;6;8
+net.bytebuddy.matcher.CollectionOneToOneMatcher;toString();4;3;9
+net.bytebuddy.matcher.CollectionOneToOneMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.CollectionOneToOneMatcher;CollectionOneToOneMatcher(List);0;1;3
+net.bytebuddy.matcher.DescriptorMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.DescriptorMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.DescriptorMatcher;toString();0;1;1
+net.bytebuddy.matcher.DescriptorMatcher;DescriptorMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.DescriptorMatcher;doMatch(NamedElement.WithDescriptor);0;1;1
+net.bytebuddy.matcher.ModifierMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.ModifierMatcher;doMatch(ModifierReviewable);2;2;1
+net.bytebuddy.matcher.ModifierMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.ModifierMatcher;ModifierMatcher(ModifierMatcher.Mode);0;1;3
+net.bytebuddy.matcher.ModifierMatcher;toString();0;1;1
+net.bytebuddy.matcher.ModifierMatcher;of(ModifierMatcher.Mode);0;1;1
+net.bytebuddy.matcher.MethodParameterTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.MethodParameterTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.MethodParameterTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.MethodParameterTypeMatcher;MethodParameterTypeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.MethodParameterTypeMatcher;doMatch(ParameterDescription);0;1;1
+net.bytebuddy.matcher.ClassLoaderParentMatcher;equals(Object);14;8;0
+net.bytebuddy.matcher.ClassLoaderParentMatcher;hashCode();2;2;0
+net.bytebuddy.matcher.ClassLoaderParentMatcher;matches(ClassLoader);6;4;6
+net.bytebuddy.matcher.ClassLoaderParentMatcher;toString();0;1;1
+net.bytebuddy.matcher.ClassLoaderParentMatcher;ClassLoaderParentMatcher(ClassLoader);0;1;3
+net.bytebuddy.matcher.FieldTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.FieldTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.FieldTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.FieldTypeMatcher;FieldTypeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.FieldTypeMatcher;doMatch(FieldDescription);0;1;1
+net.bytebuddy.matcher.EqualityMatcher;equals(Object);8;5;0
+net.bytebuddy.matcher.EqualityMatcher;toString();0;1;1
+net.bytebuddy.matcher.EqualityMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.EqualityMatcher;EqualityMatcher(Object);0;1;3
+net.bytebuddy.matcher.EqualityMatcher;matches(Object);0;1;1
+net.bytebuddy.matcher.IsNamedMatcher;equals(Object);8;5;0
+net.bytebuddy.matcher.IsNamedMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.IsNamedMatcher;IsNamedMatcher();0;1;1
+net.bytebuddy.matcher.IsNamedMatcher;doMatch(NamedElement.WithOptionalName);0;1;1
+net.bytebuddy.matcher.IsNamedMatcher;toString();0;1;1
+net.bytebuddy.matcher.ErasureMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.ErasureMatcher;toString();0;1;1
+net.bytebuddy.matcher.ErasureMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.ErasureMatcher;ErasureMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.ErasureMatcher;doMatch(TypeDefinition);0;1;1
+net.bytebuddy.matcher.PrimitiveTypeMatcher;equals(Object);8;5;0
+net.bytebuddy.matcher.PrimitiveTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.PrimitiveTypeMatcher;PrimitiveTypeMatcher();0;1;1
+net.bytebuddy.matcher.PrimitiveTypeMatcher;doMatch(TypeDefinition);0;1;1
+net.bytebuddy.matcher.PrimitiveTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesArguments(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;targetsElement(ElementType);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isRecord();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isAnnotation();0;1;1
+net.bytebuddy.matcher.ElementMatchers;noneOf(Iterable);6;4;8
+net.bytebuddy.matcher.ElementMatchers;declaresGenericException(TypeDescription.Generic);4;3;3
+net.bytebuddy.matcher.ElementMatchers;isExtensionClassLoader();2;2;3
+net.bytebuddy.matcher.ElementMatchers;isGetter(String);2;2;3
+net.bytebuddy.matcher.ElementMatchers;anyOf(Iterable);6;4;8
+net.bytebuddy.matcher.ElementMatchers;erasures(Iterable);2;2;5
+net.bytebuddy.matcher.ElementMatchers;takesGenericArguments(List);2;2;5
+net.bytebuddy.matcher.ElementMatchers;takesArguments(Iterable);2;2;5
+net.bytebuddy.matcher.ElementMatchers;isGetter();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSetter(String);2;2;3
+net.bytebuddy.matcher.ElementMatchers;cached(ElementMatcher, int);2;2;3
+net.bytebuddy.matcher.ElementMatchers;canThrow(TypeDescription);4;3;3
+net.bytebuddy.matcher.ElementMatchers;isMain();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isVariable(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isEquals();0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasMethodName(String);4;3;5
+net.bytebuddy.matcher.ElementMatchers;declaresException(TypeDescription);2;2;3
+net.bytebuddy.matcher.ElementMatchers;namedOneOf(String[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSetter();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isChildOf(ClassLoader);2;2;3
+net.bytebuddy.matcher.ElementMatchers;isParentOf(ClassLoader);2;2;2
+net.bytebuddy.matcher.ElementMatchers;is(Object);2;2;2
+net.bytebuddy.matcher.ElementMatchers;anyOf(Constructor[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;anyOf(Method[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;noneOf(Constructor[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;noneOf(Method[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;named(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;namedIgnoreCase(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;nameStartsWith(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;nameStartsWithIgnoreCase(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;nameEndsWith(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;nameEndsWithIgnoreCase(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;nameContains(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;nameContainsIgnoreCase(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;nameMatches(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasDescriptor(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isFinalizer();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isToString();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGenericSetter(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;declaresAnnotation(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesGenericArguments(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesArguments(int);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isHashCode();0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasAnnotation(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;declaresField(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;declaresMethod(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;ElementMatchers();0;1;2
+net.bytebuddy.matcher.ElementMatchers;anyOf(Field[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;noneOf(Field[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isPackagePrivate();0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesGenericArgument(int, ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;failSafe(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;cached(ElementMatcher, ConcurrentMap);0;1;1
+net.bytebuddy.matcher.ElementMatchers;is(Field);0;1;1
+net.bytebuddy.matcher.ElementMatchers;is(FieldDescription.InDefinedShape);0;1;1
+net.bytebuddy.matcher.ElementMatchers;is(Method);0;1;1
+net.bytebuddy.matcher.ElementMatchers;is(Constructor);0;1;1
+net.bytebuddy.matcher.ElementMatchers;is(MethodDescription.InDefinedShape);0;1;1
+net.bytebuddy.matcher.ElementMatchers;is(ParameterDescription.InDefinedShape);0;1;1
+net.bytebuddy.matcher.ElementMatchers;anyOf(Type[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;anyOf(Annotation[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;noneOf(Type[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;noneOf(Annotation[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;erasures(Class[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesGenericArguments(Type[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDefaultFinalizer();0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasSignature(MethodDescription.SignatureToken);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasClassFileVersionAtLeast(ClassFileVersion);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasClassFileVersionAtMost(ClassFileVersion);0;1;1
+net.bytebuddy.matcher.ElementMatchers;definedField(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;definedMethod(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;definedParameter(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasGenericType(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;not(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;whereAny(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;erasure(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;erasures(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDeclaredByGeneric(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isVisibleTo(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isAccessibleTo(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;returnsGeneric(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesGenericArgument(int, Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesGenericArgument(int, TypeDescription.Generic);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesArgument(int, Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesArgument(int, TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesArgument(int, ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasParameters(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;declaresGenericException(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isOverriddenFromGeneric(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isClone();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGenericGetter(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSubTypeOf(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSuperTypeOf(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasGenericSuperClass(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasGenericSuperType(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;ofSort(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;genericFieldType(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;annotationType(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSystemClassLoader();0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasChild(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;ofType(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasType(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;is(Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;is(Annotation);0;1;1
+net.bytebuddy.matcher.ElementMatchers;anyOf(Object[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;noneOf(Object[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;whereNone(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;erasure(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;erasure(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;erasures(TypeDescription[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isVariable(String);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isNamed();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDeclaredBy(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDeclaredBy(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDeclaredBy(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDeclaredByGeneric(Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDeclaredByGeneric(TypeDescription.Generic);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isVisibleTo(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isAccessibleTo(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isAnnotatedWith(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isAnnotatedWith(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isAnnotatedWith(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;returnsGeneric(Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;returnsGeneric(TypeDescription.Generic);0;1;1
+net.bytebuddy.matcher.ElementMatchers;returns(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;returns(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;returns(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesGenericArguments(TypeDefinition[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesArguments(Class[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesArguments(TypeDescription[]);0;1;1
+net.bytebuddy.matcher.ElementMatchers;canThrow(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;declaresGenericException(Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;declaresException(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isOverriddenFrom(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isOverriddenFrom(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isOverriddenFrom(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isOverriddenFromGeneric(Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isOverriddenFromGeneric(TypeDescription.Generic);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDefaultConstructor();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSetter(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGenericSetter(Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSetter(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGenericSetter(TypeDescription.Generic);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSetter(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGetter(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGenericGetter(Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGetter(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGenericGetter(TypeDescription.Generic);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isGetter(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSubTypeOf(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSuperTypeOf(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasSuperClass(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;hasSuperType(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;inheritsAnnotation(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;inheritsAnnotation(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;inheritsAnnotation(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;ofSort(TypeDefinition.Sort);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isPrimitive();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isArray();0;1;1
+net.bytebuddy.matcher.ElementMatchers;genericFieldType(Type);0;1;1
+net.bytebuddy.matcher.ElementMatchers;genericFieldType(TypeDescription.Generic);0;1;1
+net.bytebuddy.matcher.ElementMatchers;fieldType(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;fieldType(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;fieldType(ElementMatcher);0;1;1
+net.bytebuddy.matcher.ElementMatchers;annotationType(Class);0;1;1
+net.bytebuddy.matcher.ElementMatchers;annotationType(TypeDescription);0;1;1
+net.bytebuddy.matcher.ElementMatchers;isMandated();0;1;1
+net.bytebuddy.matcher.ElementMatchers;any();0;1;1
+net.bytebuddy.matcher.ElementMatchers;none();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isAbstract();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isEnum();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isPublic();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isProtected();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isPrivate();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isStatic();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isFinal();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSynthetic();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isSynchronized();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isNative();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isStrict();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isVarArgs();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isBridge();0;1;1
+net.bytebuddy.matcher.ElementMatchers;takesNoArguments();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isInterface();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isMethod();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isConstructor();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isTypeInitializer();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isVirtual();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isDefaultMethod();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isVolatile();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isTransient();0;1;1
+net.bytebuddy.matcher.ElementMatchers;supportsModules();0;1;1
+net.bytebuddy.matcher.ElementMatchers;isBootstrapClassLoader();0;1;1
+net.bytebuddy.matcher.VisibilityMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.VisibilityMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.VisibilityMatcher;toString();0;1;1
+net.bytebuddy.matcher.VisibilityMatcher;VisibilityMatcher(TypeDescription);0;1;3
+net.bytebuddy.matcher.VisibilityMatcher;doMatch(ByteCodeElement);0;1;1
+net.bytebuddy.matcher.CollectionItemMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.CollectionItemMatcher;doMatch(Iterable);4;3;5
+net.bytebuddy.matcher.CollectionItemMatcher;toString();0;1;1
+net.bytebuddy.matcher.CollectionItemMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.CollectionItemMatcher;CollectionItemMatcher(ElementMatcher);0;1;3
+net.bytebuddy.matcher.HasSuperTypeMatcher;equals(Object);10;6;0
+net.bytebuddy.matcher.HasSuperTypeMatcher;hashCode();0;1;0
+net.bytebuddy.matcher.HasSuperTypeMatcher;doMatch(TypeDescription);12;7;16
+net.bytebuddy.matcher.HasSuperTypeMatcher;toString();0;1;1
+net.bytebuddy.matcher.HasSuperTypeMatcher;HasSuperTypeMatcher(ElementMatcher);0;1;3
+net.bytebuddy.description.type.TypeDescription;static {...};0;1;7
+net.bytebuddy.description.type.TypeVariableToken;hashCode();4;3;4
+net.bytebuddy.description.type.TypeVariableToken;equals(Object);10;6;8
+net.bytebuddy.description.type.TypeVariableToken;toString();0;1;1
+net.bytebuddy.description.type.TypeVariableToken;of(TypeDescription.Generic, ElementMatcher);0;1;3
+net.bytebuddy.description.type.TypeVariableToken;TypeVariableToken(String, List, List);0;1;5
+net.bytebuddy.description.type.TypeVariableToken;accept(TypeDescription.Generic.Visitor);0;1;1
+net.bytebuddy.description.type.TypeVariableToken;TypeVariableToken(String, List);0;1;2
+net.bytebuddy.description.type.TypeVariableToken;getBounds();0;1;1
+net.bytebuddy.description.type.TypeVariableToken;getAnnotations();0;1;1
+net.bytebuddy.description.type.TypeVariableToken;getSymbol();0;1;1
+net.bytebuddy.description.type.TypeList;static {...};0;1;2
+net.bytebuddy.description.type.PackageDescription;static {...};0;1;2
+net.bytebuddy.dynamic.scaffold.TypeValidation;static {...};0;1;3
+net.bytebuddy.dynamic.scaffold.TypeValidation;TypeValidation(String, int, boolean);0;1;3
+net.bytebuddy.dynamic.scaffold.TypeValidation;of(boolean);2;2;1
+net.bytebuddy.dynamic.scaffold.TypeValidation;isEnabled();0;1;1
+net.bytebuddy.description.annotation.AnnotationValue;static {...};0;1;1
+net.bytebuddy.description.annotation.AnnotationDescription;static {...};0;1;1
+net.bytebuddy.implementation.EqualsMethod;equals(Object);16;9;0
+net.bytebuddy.implementation.EqualsMethod;appender(Implementation.Target);2;2;12
+net.bytebuddy.implementation.EqualsMethod;hashCode();0;1;0
+net.bytebuddy.implementation.EqualsMethod;withFieldOrder(Comparator);0;1;1
+net.bytebuddy.implementation.EqualsMethod;EqualsMethod(EqualsMethod.SuperClassCheck, EqualsMethod.TypeCompatibilityCheck, ElementMatcher.Junction, ElementMatcher.Junction, Comparator);0;1;7
+net.bytebuddy.implementation.EqualsMethod;withIgnoredFields(ElementMatcher);0;1;1
+net.bytebuddy.implementation.EqualsMethod;withNonNullableFields(ElementMatcher);0;1;1
+net.bytebuddy.implementation.EqualsMethod;withSubclassEquality();0;1;1
+net.bytebuddy.implementation.EqualsMethod;static {...};0;1;4
+net.bytebuddy.implementation.EqualsMethod;EqualsMethod(EqualsMethod.SuperClassCheck);0;1;2
+net.bytebuddy.implementation.EqualsMethod;requiringSuperClassEquality();0;1;1
+net.bytebuddy.implementation.EqualsMethod;isolated();0;1;1
+net.bytebuddy.implementation.EqualsMethod;withPrimitiveTypedFieldsFirst();0;1;1
+net.bytebuddy.implementation.EqualsMethod;withEnumerationTypedFieldsFirst();0;1;1
+net.bytebuddy.implementation.EqualsMethod;withPrimitiveWrapperTypedFieldsFirst();0;1;1
+net.bytebuddy.implementation.EqualsMethod;withStringTypedFieldsFirst();0;1;1
+net.bytebuddy.implementation.EqualsMethod;prepare(InstrumentedType);0;1;1
+net.bytebuddy.implementation.FixedValue;equals(Object);10;6;0
+net.bytebuddy.implementation.FixedValue;apply(MethodVisitor, Implementation.Context, MethodDescription, TypeDescription.Generic, StackManipulation);2;2;7
+net.bytebuddy.implementation.FixedValue;argument(int);2;2;3
+net.bytebuddy.implementation.FixedValue;value(Object);2;2;4
+net.bytebuddy.implementation.FixedValue;hashCode();0;1;0
+net.bytebuddy.implementation.FixedValue;reference(Object);0;1;1
+net.bytebuddy.implementation.FixedValue;FixedValue(Assigner, Assigner.Typing);0;1;4
+net.bytebuddy.implementation.FixedValue;value(TypeDescription);0;1;1
+net.bytebuddy.implementation.FixedValue;value(ConstantValue);0;1;1
+net.bytebuddy.implementation.FixedValue;reference(Object, String);0;1;1
+net.bytebuddy.implementation.FixedValue;self();0;1;1
+net.bytebuddy.implementation.FixedValue;originType();0;1;1
+net.bytebuddy.implementation.FixedValue;value(JavaConstant);0;1;1
+net.bytebuddy.implementation.FixedValue;nullValue();0;1;1
+net.bytebuddy.implementation.FieldAccessor;equals(Object);12;7;0
+net.bytebuddy.implementation.FieldAccessor;hashCode();0;1;0
+net.bytebuddy.implementation.FieldAccessor;FieldAccessor(FieldAccessor.FieldLocation, Assigner, Assigner.Typing);0;1;5
+net.bytebuddy.implementation.FieldAccessor;ofBeanProperty();0;1;1
+net.bytebuddy.implementation.FieldAccessor;of(List);0;1;1
+net.bytebuddy.implementation.FieldAccessor;of(FieldDescription);0;1;1
+net.bytebuddy.implementation.FieldAccessor;ofField(String);0;1;1
+net.bytebuddy.implementation.FieldAccessor;of(Field);0;1;1
+net.bytebuddy.implementation.FieldAccessor;of(FieldAccessor.FieldNameExtractor);0;1;1
+net.bytebuddy.implementation.FieldAccessor;of(FieldAccessor.FieldNameExtractor[]);0;1;1
+net.bytebuddy.implementation.ToStringMethod;equals(Object);18;10;0
+net.bytebuddy.implementation.ToStringMethod;appender(Implementation.Target);4;3;7
+net.bytebuddy.implementation.ToStringMethod;hashCode();0;1;0
+net.bytebuddy.implementation.ToStringMethod;static {...};0;1;8
+net.bytebuddy.implementation.ToStringMethod;withTokens(String, String, String, String);8;5;3
+net.bytebuddy.implementation.ToStringMethod;ToStringMethod(ToStringMethod.PrefixResolver, String, String, String, String, ElementMatcher.Junction);0;1;8
+net.bytebuddy.implementation.ToStringMethod;withIgnoredFields(ElementMatcher);0;1;1
+net.bytebuddy.implementation.ToStringMethod;prefixedBy(String);2;2;3
+net.bytebuddy.implementation.ToStringMethod;ToStringMethod(ToStringMethod.PrefixResolver);0;1;2
+net.bytebuddy.implementation.ToStringMethod;prefixedBy(ToStringMethod.PrefixResolver);0;1;1
+net.bytebuddy.implementation.ToStringMethod;prefixedByFullyQualifiedClassName();0;1;1
+net.bytebuddy.implementation.ToStringMethod;prefixedByCanonicalClassName();0;1;1
+net.bytebuddy.implementation.ToStringMethod;prefixedBySimpleClassName();0;1;1
+net.bytebuddy.implementation.ToStringMethod;prepare(InstrumentedType);0;1;1
+net.bytebuddy.implementation.SuperMethodCall;andThen(Implementation);0;1;1
+net.bytebuddy.implementation.SuperMethodCall;static {...};0;1;2
+net.bytebuddy.implementation.SuperMethodCall;appender(Implementation.Target);0;1;1
+net.bytebuddy.implementation.SuperMethodCall;andThen(Implementation.Composable);0;1;1
+net.bytebuddy.implementation.SuperMethodCall;prepare(InstrumentedType);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;equals(Object);18;10;0
+net.bytebuddy.implementation.InvokeDynamic;withArgument(int[]);4;3;7
+net.bytebuddy.implementation.InvokeDynamic;withField(FieldLocator.Factory, String[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withBooleanValue(boolean[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withByteValue(byte[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withShortValue(short[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withCharacterValue(char[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withIntegerValue(int[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withLongValue(long[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withFloatValue(float[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withDoubleValue(double[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withType(TypeDescription[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withEnumeration(EnumerationDescription[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withInstance(ConstantValue[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;andThen(Implementation.Composable);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;withImplicitAndMethodArguments();0;1;2
+net.bytebuddy.implementation.InvokeDynamic;withNullValue(TypeDescription[]);4;3;7
+net.bytebuddy.implementation.InvokeDynamic;lambda(Method, Type, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;bootstrap(Method, List);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;bootstrap(Constructor, List);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;withInstance(JavaConstant[]);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;withField(String[]);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;lambda(MethodDescription.InDefinedShape, TypeDefinition, MethodGraph.Compiler);4;3;23
+net.bytebuddy.implementation.InvokeDynamic;withThis(TypeDescription[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withValue(Object[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;withReference(Object[]);2;2;5
+net.bytebuddy.implementation.InvokeDynamic;hashCode();0;1;0
+net.bytebuddy.implementation.InvokeDynamic;bootstrap(MethodDescription.InDefinedShape, List);2;2;4
+net.bytebuddy.implementation.InvokeDynamic;withArgument(int);2;2;3
+net.bytebuddy.implementation.InvokeDynamic;andThen(Implementation);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;InvokeDynamic(MethodDescription.InDefinedShape, List, InvokeDynamic.InvocationProvider, InvokeDynamic.TerminationHandler, Assigner, Assigner.Typing);0;1;8
+net.bytebuddy.implementation.InvokeDynamic;withMethodArguments();0;1;2
+net.bytebuddy.implementation.InvokeDynamic;withField(String, FieldLocator.Factory);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;withReference(Object);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;withAssigner(Assigner, Assigner.Typing);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;withNullValue(Class[]);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;withThis(Class[]);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;lambda(Method, Type);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;bootstrap(Method, Object[]);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;bootstrap(Constructor, Object[]);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;appender(Implementation.Target);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;bootstrap(MethodDescription.InDefinedShape, Object[]);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;lambda(MethodDescription.InDefinedShape, TypeDefinition);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;withField(String);0;1;1
+net.bytebuddy.implementation.InvokeDynamic;prepare(InstrumentedType);0;1;1
+net.bytebuddy.implementation.HashCodeMethod;equals(Object);14;8;0
+net.bytebuddy.implementation.HashCodeMethod;appender(Implementation.Target);2;2;4
+net.bytebuddy.implementation.HashCodeMethod;hashCode();0;1;0
+net.bytebuddy.implementation.HashCodeMethod;static {...};0;1;8
+net.bytebuddy.implementation.HashCodeMethod;withMultiplier(int);2;2;3
+net.bytebuddy.implementation.HashCodeMethod;HashCodeMethod(HashCodeMethod.OffsetProvider, int, ElementMatcher.Junction, ElementMatcher.Junction);0;1;6
+net.bytebuddy.implementation.HashCodeMethod;withIgnoredFields(ElementMatcher);0;1;1
+net.bytebuddy.implementation.HashCodeMethod;withNonNullableFields(ElementMatcher);0;1;1
+net.bytebuddy.implementation.HashCodeMethod;usingTypeHashOffset(boolean);2;2;1
+net.bytebuddy.implementation.HashCodeMethod;usingOffset(int);0;1;1
+net.bytebuddy.implementation.HashCodeMethod;HashCodeMethod(HashCodeMethod.OffsetProvider);0;1;2
+net.bytebuddy.implementation.HashCodeMethod;usingSuperClassOffset();0;1;1
+net.bytebuddy.implementation.HashCodeMethod;usingDefaultOffset();0;1;1
+net.bytebuddy.implementation.HashCodeMethod;prepare(InstrumentedType);0;1;1
+net.bytebuddy.implementation.MethodDelegation;equals(Object);18;10;0
+net.bytebuddy.implementation.MethodDelegation;andThen(Implementation.Composable);0;1;1
+net.bytebuddy.implementation.MethodDelegation;withAssigner(Assigner);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, Type, String, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, TypeDefinition, String, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, String, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, Type, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, Type, String);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, TypeDefinition, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, TypeDefinition, String);0;1;1
+net.bytebuddy.implementation.MethodDelegation;toField(String, FieldLocator.Factory, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, String);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, Type);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object, TypeDefinition);0;1;1
+net.bytebuddy.implementation.MethodDelegation;toField(String, FieldLocator.Factory);0;1;1
+net.bytebuddy.implementation.MethodDelegation;toField(String, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;toMethodReturnOf(String, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(TypeDescription);0;1;1
+net.bytebuddy.implementation.MethodDelegation;toConstructor(TypeDescription);0;1;1
+net.bytebuddy.implementation.MethodDelegation;hashCode();0;1;0
+net.bytebuddy.implementation.MethodDelegation;andThen(Implementation);0;1;1
+net.bytebuddy.implementation.MethodDelegation;appender(Implementation.Target);0;1;3
+net.bytebuddy.implementation.MethodDelegation;MethodDelegation(MethodDelegation.ImplementationDelegate, List, MethodDelegationBinder.AmbiguityResolver, MethodDelegationBinder.TerminationHandler, MethodDelegationBinder.BindingResolver, Assigner);0;1;8
+net.bytebuddy.implementation.MethodDelegation;MethodDelegation(MethodDelegation.ImplementationDelegate, List, MethodDelegationBinder.AmbiguityResolver, MethodDelegationBinder.BindingResolver);0;1;2
+net.bytebuddy.implementation.MethodDelegation;withDefaultConfiguration();0;1;1
+net.bytebuddy.implementation.MethodDelegation;withEmptyConfiguration();0;1;1
+net.bytebuddy.implementation.MethodDelegation;prepare(InstrumentedType);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Class);0;1;1
+net.bytebuddy.implementation.MethodDelegation;to(Object);0;1;1
+net.bytebuddy.implementation.MethodDelegation;toConstructor(Class);0;1;1
+net.bytebuddy.implementation.MethodDelegation;toField(String);0;1;1
+net.bytebuddy.implementation.MethodDelegation;toMethodReturnOf(String);0;1;1
+net.bytebuddy.implementation.ExceptionMethod;equals(Object);8;5;0
+net.bytebuddy.implementation.ExceptionMethod;throwing(TypeDescription, String);2;2;3
+net.bytebuddy.implementation.ExceptionMethod;throwing(TypeDescription);2;2;3
+net.bytebuddy.implementation.ExceptionMethod;apply(MethodVisitor, Implementation.Context, MethodDescription);0;1;4
+net.bytebuddy.implementation.ExceptionMethod;hashCode();0;1;0
+net.bytebuddy.implementation.ExceptionMethod;ExceptionMethod(ExceptionMethod.ConstructionDelegate);0;1;3
+net.bytebuddy.implementation.ExceptionMethod;throwing(Class, String);0;1;1
+net.bytebuddy.implementation.ExceptionMethod;throwing(Class);0;1;1
+net.bytebuddy.implementation.ExceptionMethod;prepare(InstrumentedType);0;1;1
+net.bytebuddy.implementation.ExceptionMethod;appender(Implementation.Target);0;1;1
+net.bytebuddy.implementation.InvocationHandlerAdapter;equals(Object);16;9;0
+net.bytebuddy.implementation.InvocationHandlerAdapter;apply(MethodVisitor, Implementation.Context, MethodDescription, StackManipulation, FieldDescription);12;7;17
+net.bytebuddy.implementation.InvocationHandlerAdapter;argumentValuesOf(MethodDescription);2;2;10
+net.bytebuddy.implementation.InvocationHandlerAdapter;hashCode();0;1;0
+net.bytebuddy.implementation.InvocationHandlerAdapter;InvocationHandlerAdapter(String, boolean, boolean, boolean, Assigner);0;1;7
+net.bytebuddy.implementation.InvocationHandlerAdapter;of(InvocationHandler);0;1;1
+net.bytebuddy.implementation.InvocationHandlerAdapter;of(InvocationHandler, String);0;1;1
+net.bytebuddy.implementation.InvocationHandlerAdapter;toField(String, FieldLocator.Factory);0;1;1
+net.bytebuddy.implementation.InvocationHandlerAdapter;static {...};0;1;1
+net.bytebuddy.implementation.InvocationHandlerAdapter;toField(String);0;1;1
+net.bytebuddy.implementation.MethodCall;equals(Object);20;11;0
+net.bytebuddy.implementation.MethodCall;with(EnumerationDescription[]);2;2;4
+net.bytebuddy.implementation.MethodCall;with(ConstantValue[]);2;2;4
+net.bytebuddy.implementation.MethodCall;call(Callable);0;1;3
+net.bytebuddy.implementation.MethodCall;run(Runnable);0;1;3
+net.bytebuddy.implementation.MethodCall;with(JavaConstant[]);0;1;1
+net.bytebuddy.implementation.MethodCall;withArgumentArrayElements(int, int, int);10;6;12
+net.bytebuddy.implementation.MethodCall;withArgument(int[]);4;3;6
+net.bytebuddy.implementation.MethodCall;hashCode();0;1;0
+net.bytebuddy.implementation.MethodCall;withReference(Object[]);4;3;4
+net.bytebuddy.implementation.MethodCall;with(TypeDescription[]);2;2;4
+net.bytebuddy.implementation.MethodCall;withField(FieldLocator.Factory, String[]);2;2;4
+net.bytebuddy.implementation.MethodCall;with(Object[]);2;2;4
+net.bytebuddy.implementation.MethodCall;construct(MethodDescription);2;2;4
+net.bytebuddy.implementation.MethodCall;andThen(Implementation);0;1;1
+net.bytebuddy.implementation.MethodCall;withArgumentArrayElements(int);2;2;3
+net.bytebuddy.implementation.MethodCall;MethodCall(MethodCall.MethodLocator.Factory, MethodCall.TargetHandler.Factory, List, MethodCall.MethodInvoker.Factory, MethodCall.TerminationHandler.Factory, Assigner, Assigner.Typing);0;1;9
+net.bytebuddy.implementation.MethodCall;setsField(FieldDescription);0;1;1
+net.bytebuddy.implementation.MethodCall;setsField(ElementMatcher);0;1;1
+net.bytebuddy.implementation.MethodCall;andThen(Implementation.Composable);0;1;1
+net.bytebuddy.implementation.MethodCall;prepare(InstrumentedType);2;2;4
+net.bytebuddy.implementation.MethodCall;with(List);0;1;2
+net.bytebuddy.implementation.MethodCall;withAssigner(Assigner, Assigner.Typing);0;1;1
+net.bytebuddy.implementation.MethodCall;with(StackManipulation, TypeDefinition);0;1;1
+net.bytebuddy.implementation.MethodCall;withMethodCall(MethodCall);0;1;1
+net.bytebuddy.implementation.MethodCall;appender(Implementation.Target);0;1;1
+net.bytebuddy.implementation.MethodCall;withAllArguments();0;1;1
+net.bytebuddy.implementation.MethodCall;withArgumentArray();0;1;1
+net.bytebuddy.implementation.MethodCall;withThis();0;1;1
+net.bytebuddy.implementation.MethodCall;withOwnType();0;1;1
+net.bytebuddy.implementation.MethodCall;invoke(ElementMatcher, MethodGraph.Compiler);0;1;1
+net.bytebuddy.implementation.MethodCall;setsField(Field);0;1;1
+net.bytebuddy.implementation.MethodCall;invoke(Method);0;1;1
+net.bytebuddy.implementation.MethodCall;invoke(Constructor);0;1;1
+net.bytebuddy.implementation.MethodCall;invoke(MethodDescription);0;1;1
+net.bytebuddy.implementation.MethodCall;construct(Constructor);0;1;1
+net.bytebuddy.implementation.MethodCall;withArgumentArrayElements(int, int);0;1;1
+net.bytebuddy.implementation.MethodCall;with(StackManipulation, Type);0;1;1
+net.bytebuddy.implementation.MethodCall;invoke(MethodCall.MethodLocator.Factory);0;1;1
+net.bytebuddy.implementation.MethodCall;invokeSelf();0;1;1
+net.bytebuddy.implementation.MethodCall;withField(String[]);0;1;1
+net.bytebuddy.implementation.MethodCall;with(MethodCall.ArgumentLoader.Factory[]);0;1;1
+net.bytebuddy.implementation.MethodCall;invoke(ElementMatcher);0;1;1
+net.bytebuddy.implementation.MethodCall;invokeSuper();0;1;1
+net.bytebuddy.implementation.StubMethod;andThen(Implementation.Composable);0;1;1
+net.bytebuddy.implementation.StubMethod;apply(MethodVisitor, Implementation.Context, MethodDescription);0;1;5
+net.bytebuddy.implementation.StubMethod;static {...};0;1;2
+net.bytebuddy.implementation.StubMethod;prepare(InstrumentedType);0;1;1
+net.bytebuddy.implementation.StubMethod;appender(Implementation.Target);0;1;1
+net.bytebuddy.implementation.StubMethod;andThen(Implementation);0;1;1
+net.bytebuddy.implementation.DefaultMethodCall;equals(Object);8;5;0
+net.bytebuddy.implementation.DefaultMethodCall;prioritize(Iterable);2;2;5
+net.bytebuddy.implementation.DefaultMethodCall;prioritize(TypeDescription[]);0;1;1
+net.bytebuddy.implementation.DefaultMethodCall;filterRelevant(TypeDescription);4;3;7
+net.bytebuddy.implementation.DefaultMethodCall;hashCode();0;1;0
+net.bytebuddy.implementation.DefaultMethodCall;appender(Implementation.Target);0;1;1
+net.bytebuddy.implementation.DefaultMethodCall;prioritize(Collection);0;1;1
+net.bytebuddy.implementation.DefaultMethodCall;DefaultMethodCall(List);0;1;3
+net.bytebuddy.implementation.DefaultMethodCall;prioritize(Class[]);0;1;1
+net.bytebuddy.implementation.DefaultMethodCall;unambiguousOnly();0;1;1
+net.bytebuddy.implementation.DefaultMethodCall;prepare(InstrumentedType);0;1;1
+net.bytebuddy.description.TypeVariableSource;static {...};0;1;1
+net.bytebuddy.description.NamedElement;static {...};0;1;1
+net.bytebuddy.utility.dispatcher.JavaDispatcher;run();124;63;140
+net.bytebuddy.utility.dispatcher.JavaDispatcher;equals(Object);18;10;0
+net.bytebuddy.utility.dispatcher.JavaDispatcher;hashCode();2;2;0
+net.bytebuddy.utility.dispatcher.JavaDispatcher;of(Class, ClassLoader, boolean);5;4;7
+net.bytebuddy.utility.dispatcher.JavaDispatcher;static {...};0;1;3
+net.bytebuddy.utility.dispatcher.JavaDispatcher;doPrivileged(PrivilegedAction);0;2;1
+net.bytebuddy.utility.dispatcher.JavaDispatcher;JavaDispatcher(Class, ClassLoader, boolean);0;1;5
+net.bytebuddy.utility.dispatcher.JavaDispatcher;of(Class, ClassLoader);0;1;1
+net.bytebuddy.utility.dispatcher.JavaDispatcher;of(Class);0;1;1
+net.bytebuddy.implementation.bytecode.collection.ArrayFactory;equals(Object);10;6;0
+net.bytebuddy.implementation.bytecode.collection.ArrayFactory;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.collection.ArrayFactory;makeArrayCreatorFor(TypeDefinition);18;10;19
+net.bytebuddy.implementation.bytecode.collection.ArrayFactory;getComponentType();0;1;1
+net.bytebuddy.implementation.bytecode.collection.ArrayFactory;ArrayFactory(TypeDescription.Generic, ArrayFactory.ArrayCreator);0;1;5
+net.bytebuddy.implementation.bytecode.collection.ArrayFactory;forType(TypeDescription.Generic);0;1;1
+net.bytebuddy.implementation.bytecode.collection.ArrayFactory;withValues(List);0;1;1
+net.bytebuddy.implementation.bytecode.collection.ArrayAccess;static {...};0;1;9
+net.bytebuddy.implementation.bytecode.collection.ArrayAccess;of(TypeDefinition);18;10;17
+net.bytebuddy.implementation.bytecode.collection.ArrayAccess;forEach(List);2;2;7
+net.bytebuddy.implementation.bytecode.collection.ArrayAccess;ArrayAccess(String, int, int, int, StackSize);0;1;5
+net.bytebuddy.implementation.bytecode.collection.ArrayAccess;load();0;1;1
+net.bytebuddy.implementation.bytecode.collection.ArrayAccess;store();0;1;1
+net.bytebuddy.implementation.bytecode.collection.ArrayLength;static {...};0;1;2
+net.bytebuddy.implementation.bytecode.collection.ArrayLength;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.collection.ArrayLength;isValid();0;1;1
+net.bytebuddy.TypeCache;insert(ClassLoader, Object, Class);14;8;19
+net.bytebuddy.TypeCache;find(ClassLoader, Object);6;4;9
+net.bytebuddy.TypeCache;findOrInsert(ClassLoader, Object, Callable);2;2;6
+net.bytebuddy.TypeCache;findOrInsert(ClassLoader, Object, Callable, Object);2;2;5
+net.bytebuddy.TypeCache;expungeStaleEntries();2;2;3
+net.bytebuddy.TypeCache;TypeCache(TypeCache.Sort);0;1;4
+net.bytebuddy.TypeCache;TypeCache();0;1;2
+net.bytebuddy.TypeCache;clear();0;1;2
+net.bytebuddy.TypeCache;static {...};0;1;1
+net.bytebuddy.ClassFileVersion;ofJavaVersionString(String);86;44;52
+net.bytebuddy.ClassFileVersion;ofJavaVersion(int);27;25;26
+net.bytebuddy.ClassFileVersion;static {...};0;1;23
+net.bytebuddy.ClassFileVersion;equals(Object);8;5;5
+net.bytebuddy.ClassFileVersion;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.ClassFileVersion;ofThisVm(ClassFileVersion);0;1;3
+net.bytebuddy.ClassFileVersion;ofClassFile(byte[]);2;2;3
+net.bytebuddy.ClassFileVersion;ofMinorMajor(int);4;3;4
+net.bytebuddy.ClassFileVersion;compareTo(ClassFileVersion);2;2;3
+net.bytebuddy.ClassFileVersion;toString();0;1;1
+net.bytebuddy.ClassFileVersion;isPreviewVersion();2;2;1
+net.bytebuddy.ClassFileVersion;isAtLeast(ClassFileVersion);2;2;1
+net.bytebuddy.ClassFileVersion;isAtMost(ClassFileVersion);2;2;1
+net.bytebuddy.ClassFileVersion;isGreaterThan(ClassFileVersion);2;2;1
+net.bytebuddy.ClassFileVersion;isLessThan(ClassFileVersion);2;2;1
+net.bytebuddy.ClassFileVersion;asPreviewVersion();0;1;1
+net.bytebuddy.ClassFileVersion;of(TypeDescription, ClassFileLocator);0;1;1
+net.bytebuddy.ClassFileVersion;ClassFileVersion(int);0;1;3
+net.bytebuddy.ClassFileVersion;of(Class);0;1;1
+net.bytebuddy.ClassFileVersion;getMajorVersion();0;1;1
+net.bytebuddy.ClassFileVersion;getMinorVersion();0;1;1
+net.bytebuddy.ClassFileVersion;of(Class, ClassFileLocator);0;1;1
+net.bytebuddy.ClassFileVersion;getJavaVersion();0;1;1
+net.bytebuddy.ClassFileVersion;ofThisVm();0;1;1
+net.bytebuddy.ClassFileVersion;getMinorMajorVersion();0;1;1
+net.bytebuddy.ClassFileVersion;hashCode();0;1;1
+net.bytebuddy.ClassFileVersion;latest();0;1;1
+net.bytebuddy.ByteBuddy;equals(Object);30;16;0
+net.bytebuddy.ByteBuddy;static {...};8;5;28
+net.bytebuddy.ByteBuddy;with(ClassFileVersion);0;1;1
+net.bytebuddy.ByteBuddy;with(AuxiliaryType.NamingStrategy);0;1;1
+net.bytebuddy.ByteBuddy;with(AnnotationValueFilter.Factory);0;1;1
+net.bytebuddy.ByteBuddy;with(ClassWriterStrategy);0;1;1
+net.bytebuddy.ByteBuddy;rebase(TypeDescription, ClassFileLocator, MethodNameTransformer);4;3;3
+net.bytebuddy.ByteBuddy;redefine(TypeDescription, ClassFileLocator);4;3;3
+net.bytebuddy.ByteBuddy;decorate(TypeDescription, ClassFileLocator);4;3;3
+net.bytebuddy.ByteBuddy;rebase(Class, ClassFileLocator, MethodNameTransformer);0;1;1
+net.bytebuddy.ByteBuddy;subclass(Type, ConstructorStrategy);0;1;1
+net.bytebuddy.ByteBuddy;subclass(Type);0;1;1
+net.bytebuddy.ByteBuddy;makeInterface(Type[]);0;1;1
+net.bytebuddy.ByteBuddy;makeInterface(TypeDefinition[]);0;1;1
+net.bytebuddy.ByteBuddy;ByteBuddy(ClassFileVersion);6;4;3
+net.bytebuddy.ByteBuddy;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.ByteBuddy;makeEnumeration(Collection);2;2;15
+net.bytebuddy.ByteBuddy;makeRecord();0;1;14
+net.bytebuddy.ByteBuddy;subclass(TypeDefinition, ConstructorStrategy);8;5;10
+net.bytebuddy.ByteBuddy;hashCode();0;1;0
+net.bytebuddy.ByteBuddy;makeAnnotation();0;1;3
+net.bytebuddy.ByteBuddy;makePackage(String);0;1;2
+net.bytebuddy.ByteBuddy;ByteBuddy(ClassFileVersion, NamingStrategy, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, InstrumentedType.Factory, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher);0;1;14
+net.bytebuddy.ByteBuddy;with(NamingStrategy);0;1;1
+net.bytebuddy.ByteBuddy;with(AnnotationRetention);0;1;1
+net.bytebuddy.ByteBuddy;with(Implementation.Context.Factory);0;1;1
+net.bytebuddy.ByteBuddy;with(MethodGraph.Compiler);0;1;1
+net.bytebuddy.ByteBuddy;with(InstrumentedType.Factory);0;1;1
+net.bytebuddy.ByteBuddy;with(TypeValidation);0;1;1
+net.bytebuddy.ByteBuddy;with(VisibilityBridgeStrategy);0;1;1
+net.bytebuddy.ByteBuddy;ignore(LatentMatcher);0;1;1
+net.bytebuddy.ByteBuddy;makeInterface(Collection);0;1;1
+net.bytebuddy.ByteBuddy;rebase(Package, ClassFileLocator);0;1;1
+net.bytebuddy.ByteBuddy;rebase(PackageDescription, ClassFileLocator);0;1;1
+net.bytebuddy.ByteBuddy;makeInterface(List);0;1;1
+net.bytebuddy.ByteBuddy;redefine(Class);0;1;1
+net.bytebuddy.ByteBuddy;rebase(Class);0;1;1
+net.bytebuddy.ByteBuddy;decorate(Class);0;1;1
+net.bytebuddy.ByteBuddy;ignore(ElementMatcher);0;1;1
+net.bytebuddy.ByteBuddy;subclass(Class, ConstructorStrategy);0;1;1
+net.bytebuddy.ByteBuddy;redefine(Class, ClassFileLocator);0;1;1
+net.bytebuddy.ByteBuddy;rebase(Class, ClassFileLocator);0;1;1
+net.bytebuddy.ByteBuddy;rebase(TypeDescription, ClassFileLocator);0;1;1
+net.bytebuddy.ByteBuddy;decorate(Class, ClassFileLocator);0;1;1
+net.bytebuddy.ByteBuddy;ByteBuddy();0;1;2
+net.bytebuddy.ByteBuddy;subclass(Class);0;1;1
+net.bytebuddy.ByteBuddy;subclass(TypeDefinition);0;1;1
+net.bytebuddy.ByteBuddy;makeInterface(Class);0;1;1
+net.bytebuddy.ByteBuddy;makeEnumeration(String[]);0;1;1
+net.bytebuddy.ByteBuddy;makeInterface();0;1;1
+net.bytebuddy.utility.visitor.LocalVariableAwareMethodVisitor;visitVarInsn(int, int);3;3;6
+net.bytebuddy.utility.visitor.LocalVariableAwareMethodVisitor;LocalVariableAwareMethodVisitor(MethodVisitor, MethodDescription);0;1;3
+net.bytebuddy.utility.visitor.LocalVariableAwareMethodVisitor;getFreeOffset();0;1;1
+net.bytebuddy.utility.visitor.LineNumberPrependingMethodVisitor;visitLineNumber(int, Label);2;2;5
+net.bytebuddy.utility.visitor.LineNumberPrependingMethodVisitor;LineNumberPrependingMethodVisitor(MethodVisitor);0;1;4
+net.bytebuddy.utility.visitor.LineNumberPrependingMethodVisitor;onAfterExceptionTable();0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitMethodInsn(int, String, String, String);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitFrame(int, int, Object[], int, Object[]);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitMethodInsn(int, String, String, String, boolean);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;considerEndOfExceptionTable();2;2;4
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitFieldInsn(int, String, String, String);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitMethodInsn(int, String, String, String);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitInvokeDynamicInsn(String, String, Handle, Object[]);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitTableSwitchInsn(int, int, Label, Label[]);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;ExceptionTableSensitiveMethodVisitor(int, MethodVisitor);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitFrame(int, int, Object[], int, Object[]);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitMethodInsn(int, String, String, String, boolean);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitLookupSwitchInsn(Label, int[], Label[]);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitIntInsn(int, int);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitVarInsn(int, int);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitTypeInsn(int, String);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitFieldInsn(int, String, String, String);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitInvokeDynamicInsn(String, String, Handle, Object[]);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitJumpInsn(int, Label);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitIincInsn(int, int);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitTableSwitchInsn(int, int, Label, Label[]);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitMultiANewArrayInsn(String, int);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitLabel(Label);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitLdcInsn(Object);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitLookupSwitchInsn(Label, int[], Label[]);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;visitInsn(int);0;1;3
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitIntInsn(int, int);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitVarInsn(int, int);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitTypeInsn(int, String);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitJumpInsn(int, Label);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitIincInsn(int, int);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitMultiANewArrayInsn(String, int);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitLabel(Label);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitLdcInsn(Object);0;1;2
+net.bytebuddy.utility.visitor.ExceptionTableSensitiveMethodVisitor;onVisitInsn(int);0;1;2
+net.bytebuddy.utility.visitor.ContextClassVisitor;visitEnd();6;4;4
+net.bytebuddy.utility.visitor.ContextClassVisitor;ContextClassVisitor(ClassVisitor);0;1;2
+net.bytebuddy.utility.visitor.ContextClassVisitor;active();0;1;2
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onAfterAttributes();0;1;1
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;MetadataAwareClassVisitor(int, ClassVisitor);0;1;5
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitField(int, String, String, String, Object);0;1;4
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitMethod(int, String, String, String, String[]);0;1;4
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitInnerClass(String, String, String, int);0;1;5
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitRecordComponent(String, String, String);0;1;4
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitOuterClass(String, String, String);0;1;4
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitTypeAnnotation(int, TypePath, String, boolean);0;1;3
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitPermittedSubclass(String);0;1;5
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitNestMember(String);0;1;5
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;considerTriggerNestHost();2;2;4
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;considerTriggerOuterClass();2;2;4
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;considerTriggerAfterAttributes();2;2;4
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitAnnotation(String, boolean);0;1;3
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitEnd();0;1;5
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitAttribute(Attribute);0;1;4
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitField(int, String, String, String, Object);0;1;1
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitMethod(int, String, String, String, String[]);0;1;1
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;visitNestHost(String);0;1;3
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitTypeAnnotation(int, TypePath, String, boolean);0;1;1
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitInnerClass(String, String, String, int);0;1;2
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitOuterClass(String, String, String);0;1;2
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitRecordComponent(String, String, String);0;1;1
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitAnnotation(String, boolean);0;1;1
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitNestHost(String);0;1;2
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitPermittedSubclass(String);0;1;2
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitAttribute(Attribute);0;1;2
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitNestMember(String);0;1;2
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onVisitEnd();0;1;2
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onNestHost();0;1;1
+net.bytebuddy.utility.visitor.MetadataAwareClassVisitor;onOuterType();0;1;1
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;adjustStack(int, int);20;11;20
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitTableSwitchInsn(int, int, Label, Label[]);2;2;7
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitLookupSwitchInsn(Label, int[], Label[]);2;2;7
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitInvokeDynamicInsn(String, String, Handle, Object[]);0;1;5
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;drainStack(int, int, StackSize);10;6;13
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitFrame(int, int, Object[], int, Object[]);14;9;17
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitFieldInsn(int, String, String, String);5;5;14
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;doDrain(List);5;4;11
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;static {...};2;2;10
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitMultiANewArrayInsn(String, int);0;1;3
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;of(MethodVisitor, MethodDescription);2;2;1
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitInsn(int);7;7;19
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitJumpInsn(int, Label);4;3;7
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitVarInsn(int, int);4;4;9
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitMethodInsn(int, String, String, String, boolean);2;2;5
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;StackAwareMethodVisitor(MethodVisitor, MethodDescription);0;1;5
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitLabel(Label);2;2;5
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitLdcInsn(Object);4;3;3
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitTryCatchBlock(Label, Label, Label, String);0;1;3
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitIntInsn(int, int);0;1;3
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitTypeInsn(int, String);0;1;3
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;register(Label, List);0;1;2
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;adjustStack(int);0;1;2
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;drainStack();0;1;2
+net.bytebuddy.utility.visitor.StackAwareMethodVisitor;visitLineNumber(int, Label);0;1;2
+net.bytebuddy.implementation.bytecode.member.FieldAccess;forEnumeration(EnumerationDescription);8;5;5
+net.bytebuddy.implementation.bytecode.member.FieldAccess;static {...};0;1;3
+net.bytebuddy.implementation.bytecode.member.FieldAccess;forField(FieldDescription.InDefinedShape);2;2;1
+net.bytebuddy.implementation.bytecode.member.FieldAccess;forField(FieldDescription);2;2;4
+net.bytebuddy.implementation.bytecode.member.FieldAccess;FieldAccess(String, int, int, int, StackSize);0;1;5
+net.bytebuddy.implementation.bytecode.member.MethodInvocation;static {...};0;1;8
+net.bytebuddy.implementation.bytecode.member.MethodInvocation;invoke(MethodDescription.InDefinedShape);12;7;11
+net.bytebuddy.implementation.bytecode.member.MethodInvocation;invoke(MethodDescription);2;2;4
+net.bytebuddy.implementation.bytecode.member.MethodInvocation;MethodInvocation(String, int, int, int, int, int);0;1;6
+net.bytebuddy.implementation.bytecode.member.MethodInvocation;lookup();0;1;2
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;static {...};0;1;6
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;of(TypeDefinition);10;6;11
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;loadThis();4;3;1
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;increment(int, int);2;2;3
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;MethodVariableAccess(String, int, int, int, StackSize);0;1;5
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;increment(ParameterDescription, int);0;1;1
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;load(ParameterDescription);0;1;1
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;store(ParameterDescription);0;1;1
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;allArgumentsOf(MethodDescription);0;1;1
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;loadFrom(int);0;1;1
+net.bytebuddy.implementation.bytecode.member.MethodVariableAccess;storeAt(int);0;1;1
+net.bytebuddy.implementation.bytecode.member.MethodReturn;static {...};0;1;7
+net.bytebuddy.implementation.bytecode.member.MethodReturn;of(TypeDefinition);10;6;11
+net.bytebuddy.implementation.bytecode.member.MethodReturn;MethodReturn(String, int, int, StackSize);0;1;4
+net.bytebuddy.implementation.bytecode.member.MethodReturn;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.member.MethodReturn;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.member.HandleInvocation;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.member.HandleInvocation;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.member.HandleInvocation;apply(MethodVisitor, Implementation.Context);0;1;3
+net.bytebuddy.implementation.bytecode.member.HandleInvocation;HandleInvocation(JavaConstant.MethodType);0;1;3
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveTypeAwareAssigner;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveTypeAwareAssigner;assign(TypeDescription.Generic, TypeDescription.Generic, Assigner.Typing);8;5;7
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveTypeAwareAssigner;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveTypeAwareAssigner;PrimitiveTypeAwareAssigner(Assigner);0;1;3
+net.bytebuddy.implementation.bytecode.assign.primitive.VoidAwareAssigner;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.assign.primitive.VoidAwareAssigner;assign(TypeDescription.Generic, TypeDescription.Generic, Assigner.Typing);10;6;8
+net.bytebuddy.implementation.bytecode.assign.primitive.VoidAwareAssigner;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.assign.primitive.VoidAwareAssigner;VoidAwareAssigner(Assigner);0;1;3
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveBoxingDelegate;static {...};0;1;9
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveBoxingDelegate;forPrimitive(TypeDefinition);16;9;17
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveBoxingDelegate;PrimitiveBoxingDelegate(String, int, Class, StackSize, String, String);0;1;6
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveBoxingDelegate;assignBoxedTo(TypeDescription.Generic, Assigner, Assigner.Typing);0;1;1
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveUnboxingDelegate;static {...};0;1;9
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveUnboxingDelegate;forReferenceType(TypeDefinition);18;10;19
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveUnboxingDelegate;forPrimitive(TypeDefinition);16;9;17
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveUnboxingDelegate;PrimitiveUnboxingDelegate(String, int, Class, Class, StackSize, String, String);0;1;7
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveUnboxingDelegate;apply(MethodVisitor, Implementation.Context);0;1;3
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveUnboxingDelegate;getWrapperType();0;1;1
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveUnboxingDelegate;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveWideningDelegate;static {...};0;1;24
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveWideningDelegate;widenTo(TypeDefinition);16;9;17
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveWideningDelegate;forPrimitive(TypeDefinition);16;9;17
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveWideningDelegate;PrimitiveWideningDelegate(String, int, StackManipulation, StackManipulation, StackManipulation, StackManipulation, StackManipulation, StackManipulation, StackManipulation, StackManipulation);0;1;10
+net.bytebuddy.description.field.FieldDescription;static {...};0;1;1
+net.bytebuddy.dynamic.TargetType;resolve(TypeDescription, TypeDescription);4;3;7
+net.bytebuddy.dynamic.TargetType;TargetType();0;1;2
+net.bytebuddy.dynamic.TargetType;static {...};0;1;1
+net.bytebuddy.dynamic.Nexus;toString();0;1;2
+net.bytebuddy.dynamic.Nexus;equals(Object);14;8;8
+net.bytebuddy.dynamic.Nexus;nonAnonymous(String);2;2;3
+net.bytebuddy.dynamic.Nexus;Nexus(String, ClassLoader, ReferenceQueue, int);2;2;5
+net.bytebuddy.dynamic.Nexus;initialize(Class, int);2;2;5
+net.bytebuddy.dynamic.Nexus;hashCode();0;1;4
+net.bytebuddy.dynamic.Nexus;register(String, ClassLoader, ReferenceQueue, int, Object);0;1;2
+net.bytebuddy.dynamic.Nexus;Nexus(Class, int);0;1;2
+net.bytebuddy.dynamic.Nexus;static {...};0;1;2
+net.bytebuddy.dynamic.Nexus;clean(Reference);0;1;2
+net.bytebuddy.dynamic.NexusAccessor;equals(Object);14;8;0
+net.bytebuddy.dynamic.NexusAccessor;static {...};0;1;1
+net.bytebuddy.dynamic.NexusAccessor;hashCode();2;2;0
+net.bytebuddy.dynamic.NexusAccessor;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.dynamic.NexusAccessor;register(String, ClassLoader, int, LoadedTypeInitializer);2;2;3
+net.bytebuddy.dynamic.NexusAccessor;NexusAccessor(ReferenceQueue);0;1;3
+net.bytebuddy.dynamic.NexusAccessor;NexusAccessor();0;1;2
+net.bytebuddy.dynamic.NexusAccessor;clean(Reference);0;1;2
+net.bytebuddy.dynamic.NexusAccessor;isAlive();0;1;1
+net.bytebuddy.asm.TypeConstantAdjustment;static {...};0;1;2
+net.bytebuddy.asm.TypeConstantAdjustment;wrap(TypeDescription, ClassVisitor, Implementation.Context, TypePool, FieldList, MethodList, int, int);0;1;1
+net.bytebuddy.asm.TypeConstantAdjustment;mergeWriter(int);0;1;1
+net.bytebuddy.asm.TypeConstantAdjustment;mergeReader(int);0;1;1
+net.bytebuddy.asm.TypeReferenceAdjustment;equals(Object);10;6;0
+net.bytebuddy.asm.TypeReferenceAdjustment;hashCode();0;1;0
+net.bytebuddy.asm.TypeReferenceAdjustment;filter(ElementMatcher);0;1;1
+net.bytebuddy.asm.TypeReferenceAdjustment;wrap(TypeDescription, ClassVisitor, Implementation.Context, TypePool, FieldList, MethodList, int, int);0;1;1
+net.bytebuddy.asm.TypeReferenceAdjustment;TypeReferenceAdjustment(boolean, ElementMatcher.Junction);0;1;4
+net.bytebuddy.asm.TypeReferenceAdjustment;strict();0;1;1
+net.bytebuddy.asm.TypeReferenceAdjustment;relaxed();0;1;1
+net.bytebuddy.asm.MemberRemoval;equals(Object);10;6;0
+net.bytebuddy.asm.MemberRemoval;hashCode();0;1;0
+net.bytebuddy.asm.MemberRemoval;wrap(TypeDescription, ClassVisitor, Implementation.Context, TypePool, FieldList, MethodList, int, int);4;3;9
+net.bytebuddy.asm.MemberRemoval;stripFields(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberRemoval;stripInvokables(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberRemoval;MemberRemoval(ElementMatcher.Junction, ElementMatcher.Junction);0;1;4
+net.bytebuddy.asm.MemberRemoval;stripMethods(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberRemoval;stripConstructors(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberRemoval;MemberRemoval();0;1;2
+net.bytebuddy.asm.ModifierAdjustment;equals(Object);12;7;0
+net.bytebuddy.asm.ModifierAdjustment;hashCode();0;1;0
+net.bytebuddy.asm.ModifierAdjustment;wrap(TypeDescription, ClassVisitor, Implementation.Context, TypePool, FieldList, MethodList, int, int);4;3;9
+net.bytebuddy.asm.ModifierAdjustment;withTypeModifiers(ElementMatcher, List);0;1;2
+net.bytebuddy.asm.ModifierAdjustment;withFieldModifiers(ElementMatcher, List);0;1;2
+net.bytebuddy.asm.ModifierAdjustment;withInvokableModifiers(ElementMatcher, List);0;1;2
+net.bytebuddy.asm.ModifierAdjustment;ModifierAdjustment(List, List, List);0;1;5
+net.bytebuddy.asm.ModifierAdjustment;withMethodModifiers(ElementMatcher, List);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withConstructorModifiers(ElementMatcher, List);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;ModifierAdjustment();0;1;4
+net.bytebuddy.asm.ModifierAdjustment;withTypeModifiers(ElementMatcher, ModifierContributor.ForType[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withFieldModifiers(ElementMatcher, ModifierContributor.ForField[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withMethodModifiers(ElementMatcher, ModifierContributor.ForMethod[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withConstructorModifiers(ElementMatcher, ModifierContributor.ForMethod[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withInvokableModifiers(ElementMatcher, ModifierContributor.ForMethod[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withTypeModifiers(ModifierContributor.ForType[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withTypeModifiers(List);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withFieldModifiers(ModifierContributor.ForField[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withFieldModifiers(List);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withMethodModifiers(ModifierContributor.ForMethod[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withMethodModifiers(List);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withConstructorModifiers(ModifierContributor.ForMethod[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withConstructorModifiers(List);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withInvokableModifiers(ModifierContributor.ForMethod[]);0;1;1
+net.bytebuddy.asm.ModifierAdjustment;withInvokableModifiers(List);0;1;1
+net.bytebuddy.asm.Advice;equals(Object);16;9;0
+net.bytebuddy.asm.Advice;to(TypeDescription, TypeDescription, Advice.PostProcessor.Factory, ClassFileLocator, List, Advice.Delegator.Factory);12;7;17
+net.bytebuddy.asm.Advice;withExceptionHandler(StackManipulation);0;1;1
+net.bytebuddy.asm.Advice;to(TypeDescription, TypeDescription);0;1;1
+net.bytebuddy.asm.Advice;to(TypeDescription);0;1;1
+net.bytebuddy.asm.Advice;static {...};0;1;15
+net.bytebuddy.asm.Advice;doWrap(TypeDescription, MethodDescription, MethodVisitor, Implementation.Context, int, int);8;5;13
+net.bytebuddy.asm.Advice;to(TypeDescription, Advice.PostProcessor.Factory, ClassFileLocator, List, Advice.Delegator.Factory);10;6;13
+net.bytebuddy.asm.Advice;locate(Class, MethodDescription.InDefinedShape, Advice.Dispatcher.Unresolved, MethodDescription.InDefinedShape, Advice.Delegator.Factory);8;5;8
+net.bytebuddy.asm.Advice;hashCode();0;1;0
+net.bytebuddy.asm.Advice;to(Class, Class);2;2;4
+net.bytebuddy.asm.Advice;Advice(Advice.Dispatcher.Resolved.ForMethodEnter, Advice.Dispatcher.Resolved.ForMethodExit, Assigner, Advice.ExceptionHandler, Implementation);0;1;7
+net.bytebuddy.asm.Advice;wrap(TypeDescription, MethodDescription, MethodVisitor, Implementation.Context, TypePool, int, int);4;3;2
+net.bytebuddy.asm.Advice;withAssigner(Assigner);0;1;1
+net.bytebuddy.asm.Advice;withExceptionHandler(Advice.ExceptionHandler);0;1;1
+net.bytebuddy.asm.Advice;wrap(Implementation);0;1;1
+net.bytebuddy.asm.Advice;on(ElementMatcher);0;1;1
+net.bytebuddy.asm.Advice;appender(Implementation.Target);0;1;1
+net.bytebuddy.asm.Advice;Advice(Advice.Dispatcher.Resolved.ForMethodEnter, Advice.Dispatcher.Resolved.ForMethodExit);0;1;2
+net.bytebuddy.asm.Advice;to(TypeDescription, TypeDescription, ClassFileLocator);0;1;1
+net.bytebuddy.asm.Advice;to(TypeDescription, ClassFileLocator);0;1;1
+net.bytebuddy.asm.Advice;to(Class, Class, ClassFileLocator);0;1;1
+net.bytebuddy.asm.Advice;to(Class);0;1;1
+net.bytebuddy.asm.Advice;to(Class, ClassFileLocator);0;1;1
+net.bytebuddy.asm.Advice;prepare(InstrumentedType);0;1;1
+net.bytebuddy.asm.Advice;withCustomMapping();0;1;1
+net.bytebuddy.asm.Advice;withExceptionPrinting();0;1;1
+net.bytebuddy.asm.ClassVisitorFactory;equals(Object);8;5;0
+net.bytebuddy.asm.ClassVisitorFactory;hashCode();0;1;0
+net.bytebuddy.asm.ClassVisitorFactory;static {...};0;1;0
+net.bytebuddy.asm.ClassVisitorFactory;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.asm.ClassVisitorFactory;toVisitorBuilder(ByteBuddy, Class, Class, Class, Class, Implementation);4;3;17
+net.bytebuddy.asm.ClassVisitorFactory;toMethodVisitorBuilder(ByteBuddy, Class, Class, Class, Class, Class, Class, Class, Class, Class, Class, Class, Class);16;9;35
+net.bytebuddy.asm.ClassVisitorFactory;toAttributeWrapper(DynamicType.Builder, Class, Class, TypeDescription, TypeDescription);0;1;20
+net.bytebuddy.asm.ClassVisitorFactory;toConvertedParameter(TypeDescription, Class, String, int, boolean);2;2;3
+net.bytebuddy.asm.ClassVisitorFactory;of(Class);0;1;1
+net.bytebuddy.asm.ClassVisitorFactory;of(Class, ByteBuddy);0;1;1
+net.bytebuddy.asm.ClassVisitorFactory;ClassVisitorFactory(Class);0;1;3
+net.bytebuddy.asm.ClassVisitorFactory;getType();0;1;1
+net.bytebuddy.asm.MemberAttributeExtension;equals(Object);10;6;0
+net.bytebuddy.asm.MemberAttributeExtension;hashCode();0;1;0
+net.bytebuddy.asm.MemberAttributeExtension;MemberAttributeExtension(AnnotationValueFilter.Factory, Object);0;1;4
+net.bytebuddy.asm.MemberSubstitution;equals(Object);16;9;0
+net.bytebuddy.asm.MemberSubstitution;hashCode();0;1;0
+net.bytebuddy.asm.MemberSubstitution;element(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberSubstitution;with(MethodGraph.Compiler);0;1;1
+net.bytebuddy.asm.MemberSubstitution;with(MemberSubstitution.TypePoolResolver);0;1;1
+net.bytebuddy.asm.MemberSubstitution;wrap(TypeDescription, MethodDescription, MethodVisitor, Implementation.Context, TypePool, int, int);0;1;4
+net.bytebuddy.asm.MemberSubstitution;MemberSubstitution(MethodGraph.Compiler, MemberSubstitution.TypePoolResolver, boolean, boolean, MemberSubstitution.Replacement.Factory);0;1;7
+net.bytebuddy.asm.MemberSubstitution;field(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberSubstitution;method(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberSubstitution;invokable(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberSubstitution;failIfNoMatch(boolean);0;1;1
+net.bytebuddy.asm.MemberSubstitution;on(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberSubstitution;MemberSubstitution(boolean);0;1;2
+net.bytebuddy.asm.MemberSubstitution;constructor(ElementMatcher);0;1;1
+net.bytebuddy.asm.MemberSubstitution;strict();0;1;1
+net.bytebuddy.asm.MemberSubstitution;relaxed();0;1;1
+net.bytebuddy.implementation.bytecode.Throw;static {...};0;1;2
+net.bytebuddy.implementation.bytecode.Throw;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.Throw;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.ShiftLeft;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.ShiftLeft;static {...};0;1;3
+net.bytebuddy.implementation.bytecode.ShiftLeft;ShiftLeft(String, int, int, StackSize);0;1;4
+net.bytebuddy.implementation.bytecode.ShiftLeft;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.Addition;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.Addition;static {...};0;1;5
+net.bytebuddy.implementation.bytecode.Addition;Addition(String, int, int, StackSize);0;1;4
+net.bytebuddy.implementation.bytecode.Addition;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.Multiplication;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.Multiplication;static {...};0;1;5
+net.bytebuddy.implementation.bytecode.Multiplication;Multiplication(String, int, int, StackSize);0;1;4
+net.bytebuddy.implementation.bytecode.Multiplication;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.Remainder;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.Remainder;static {...};0;1;5
+net.bytebuddy.implementation.bytecode.Remainder;Remainder(String, int, int, StackSize);0;1;4
+net.bytebuddy.implementation.bytecode.Remainder;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.StackSize;of(int);4;4;5
+net.bytebuddy.implementation.bytecode.StackSize;maximum(StackSize);7;6;8
+net.bytebuddy.implementation.bytecode.StackSize;of(TypeDefinition[]);0;1;1
+net.bytebuddy.implementation.bytecode.StackSize;static {...};0;1;4
+net.bytebuddy.implementation.bytecode.StackSize;of(Collection);2;2;5
+net.bytebuddy.implementation.bytecode.StackSize;of(Class);6;4;5
+net.bytebuddy.implementation.bytecode.StackSize;toDecreasingSize();0;1;1
+net.bytebuddy.implementation.bytecode.StackSize;StackSize(String, int, int);0;1;3
+net.bytebuddy.implementation.bytecode.StackSize;toIncreasingSize();0;1;1
+net.bytebuddy.implementation.bytecode.StackSize;getSize();0;1;1
+net.bytebuddy.implementation.bytecode.ShiftRight;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.ShiftRight;static {...};0;1;3
+net.bytebuddy.implementation.bytecode.ShiftRight;ShiftRight(String, int, int, StackSize, StackManipulation);0;1;5
+net.bytebuddy.implementation.bytecode.ShiftRight;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.ShiftRight;toUnsigned();0;1;1
+net.bytebuddy.implementation.bytecode.Subtraction;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.Subtraction;static {...};0;1;5
+net.bytebuddy.implementation.bytecode.Subtraction;Subtraction(String, int, int, StackSize);0;1;4
+net.bytebuddy.implementation.bytecode.Subtraction;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.TypeCreation;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.TypeCreation;of(TypeDescription);6;4;3
+net.bytebuddy.implementation.bytecode.TypeCreation;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.TypeCreation;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.TypeCreation;TypeCreation(TypeDescription);0;1;3
+net.bytebuddy.implementation.bytecode.Duplication;of(TypeDefinition);4;4;5
+net.bytebuddy.implementation.bytecode.Duplication;static {...};0;1;4
+net.bytebuddy.implementation.bytecode.Duplication;Duplication(String, int, StackSize, int);0;1;4
+net.bytebuddy.implementation.bytecode.Duplication;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.Duplication;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.Removal;of(TypeDefinition);4;4;5
+net.bytebuddy.implementation.bytecode.Removal;static {...};0;1;4
+net.bytebuddy.implementation.bytecode.Removal;Removal(String, int, StackSize, int);0;1;4
+net.bytebuddy.implementation.bytecode.Removal;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.Removal;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.Division;isValid();0;1;1
+net.bytebuddy.implementation.bytecode.Division;static {...};0;1;5
+net.bytebuddy.implementation.bytecode.Division;Division(String, int, int, StackSize);0;1;4
+net.bytebuddy.implementation.bytecode.Division;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.assign.Assigner;static {...};0;1;2
+net.bytebuddy.implementation.bytecode.assign.InstanceCheck;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.assign.InstanceCheck;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.assign.InstanceCheck;of(TypeDescription);2;2;3
+net.bytebuddy.implementation.bytecode.assign.InstanceCheck;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.assign.InstanceCheck;InstanceCheck(TypeDescription);0;1;3
+net.bytebuddy.implementation.bytecode.assign.TypeCasting;equals(Object);8;5;0
+net.bytebuddy.implementation.bytecode.assign.TypeCasting;to(TypeDefinition);2;2;3
+net.bytebuddy.implementation.bytecode.assign.TypeCasting;hashCode();0;1;0
+net.bytebuddy.implementation.bytecode.assign.TypeCasting;apply(MethodVisitor, Implementation.Context);0;1;2
+net.bytebuddy.implementation.bytecode.assign.TypeCasting;TypeCasting(TypeDescription);0;1;3
+net.bytebuddy.dynamic.scaffold.inline.RedefinitionDynamicTypeBuilder;toTypeWriter(TypePool);0;1;6
+net.bytebuddy.dynamic.scaffold.inline.RedefinitionDynamicTypeBuilder;RedefinitionDynamicTypeBuilder(InstrumentedType.WithFlexibleName, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, TypeDescription, ClassFileLocator);2;2;4
+net.bytebuddy.dynamic.scaffold.inline.RedefinitionDynamicTypeBuilder;materialize(InstrumentedType.WithFlexibleName, FieldRegistry, MethodRegistry, RecordComponentRegistry, TypeAttributeAppender, AsmVisitorWrapper, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, List);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.RedefinitionDynamicTypeBuilder;RedefinitionDynamicTypeBuilder(InstrumentedType.WithFlexibleName, FieldRegistry, MethodRegistry, RecordComponentRegistry, TypeAttributeAppender, AsmVisitorWrapper, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, List, TypeDescription, ClassFileLocator);0;1;2
+net.bytebuddy.dynamic.scaffold.inline.InliningImplementationMatcher;equals(Object);10;6;0
+net.bytebuddy.dynamic.scaffold.inline.InliningImplementationMatcher;hashCode();0;1;0
+net.bytebuddy.dynamic.scaffold.inline.InliningImplementationMatcher;of(LatentMatcher, TypeDescription);4;3;10
+net.bytebuddy.dynamic.scaffold.inline.InliningImplementationMatcher;resolve(TypeDescription);0;1;3
+net.bytebuddy.dynamic.scaffold.inline.InliningImplementationMatcher;InliningImplementationMatcher(LatentMatcher, ElementMatcher);0;1;4
+net.bytebuddy.dynamic.scaffold.inline.AbstractInliningDynamicTypeBuilder;equals(Object);12;7;0
+net.bytebuddy.dynamic.scaffold.inline.AbstractInliningDynamicTypeBuilder;hashCode();0;1;0
+net.bytebuddy.dynamic.scaffold.inline.AbstractInliningDynamicTypeBuilder;AbstractInliningDynamicTypeBuilder(InstrumentedType.WithFlexibleName, FieldRegistry, MethodRegistry, RecordComponentRegistry, TypeAttributeAppender, AsmVisitorWrapper, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, List, TypeDescription, ClassFileLocator);0;1;4
+net.bytebuddy.dynamic.scaffold.inline.AbstractInliningDynamicTypeBuilder;toTypeWriter();0;1;1
+net.bytebuddy.dynamic.scaffold.inline.RebaseImplementationTarget;equals(Object);10;6;0
+net.bytebuddy.dynamic.scaffold.inline.RebaseImplementationTarget;invokeSuper(MethodDescription.SignatureToken);2;2;4
+net.bytebuddy.dynamic.scaffold.inline.RebaseImplementationTarget;invokeSuper(MethodGraph.Node);4;3;3
+net.bytebuddy.dynamic.scaffold.inline.RebaseImplementationTarget;invokeSuper(MethodRebaseResolver.Resolution);2;2;3
+net.bytebuddy.dynamic.scaffold.inline.RebaseImplementationTarget;of(TypeDescription, MethodGraph.Linked, ClassFileVersion, MethodRebaseResolver);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.RebaseImplementationTarget;RebaseImplementationTarget(TypeDescription, MethodGraph.Linked, Implementation.Target.AbstractBase.DefaultMethodInvocation, Map);0;1;3
+net.bytebuddy.dynamic.scaffold.inline.RebaseImplementationTarget;hashCode();0;1;0
+net.bytebuddy.dynamic.scaffold.inline.RebaseImplementationTarget;getOriginType();0;1;1
+net.bytebuddy.dynamic.scaffold.inline.RebaseDynamicTypeBuilder;equals(Object);10;6;0
+net.bytebuddy.dynamic.scaffold.inline.RebaseDynamicTypeBuilder;hashCode();0;1;0
+net.bytebuddy.dynamic.scaffold.inline.RebaseDynamicTypeBuilder;toTypeWriter(TypePool);0;1;10
+net.bytebuddy.dynamic.scaffold.inline.RebaseDynamicTypeBuilder;RebaseDynamicTypeBuilder(InstrumentedType.WithFlexibleName, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, TypeDescription, ClassFileLocator, MethodNameTransformer);2;2;4
+net.bytebuddy.dynamic.scaffold.inline.RebaseDynamicTypeBuilder;materialize(InstrumentedType.WithFlexibleName, FieldRegistry, MethodRegistry, RecordComponentRegistry, TypeAttributeAppender, AsmVisitorWrapper, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, List);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.RebaseDynamicTypeBuilder;RebaseDynamicTypeBuilder(InstrumentedType.WithFlexibleName, FieldRegistry, MethodRegistry, RecordComponentRegistry, TypeAttributeAppender, AsmVisitorWrapper, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, List, TypeDescription, ClassFileLocator, MethodNameTransformer);0;1;3
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;equals(Object);34;18;0
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;hashCode();0;1;0
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;suffix(String);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;declaredTypes(Collection);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;permittedSubclass(Collection);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;unsealed();0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;transform(ElementMatcher, Transformer);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;defineRecordComponent(String, TypeDefinition);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;recordComponent(LatentMatcher);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;toTypeDescription();0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;toTypeWriter(TypePool);0;1;6
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;DecoratingDynamicTypeBuilder(TypeDescription, TypeAttributeAppender, AsmVisitorWrapper, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, ClassWriterStrategy, LatentMatcher, List, ClassFileLocator);0;1;16
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;visit(AsmVisitorWrapper);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;attribute(TypeAttributeAppender);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;ignoreAlso(LatentMatcher);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;require(Collection);0;1;2
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;DecoratingDynamicTypeBuilder(TypeDescription, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, ClassWriterStrategy, LatentMatcher, ClassFileLocator);2;2;4
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;name(String);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;modifiers(int);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;merge(Collection);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;topLevelType();0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;innerTypeOf(TypeDescription);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;innerTypeOf(MethodDescription.InDefinedShape);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;nestHost(TypeDescription);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;nestMembers(Collection);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;implement(Collection);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;initializer(ByteCodeAppender);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;initializer(LoadedTypeInitializer);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;typeVariable(String, Collection);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;defineField(String, TypeDefinition, int);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;field(LatentMatcher);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;defineMethod(String, TypeDefinition, int);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;defineConstructor(int);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;invokable(LatentMatcher);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;annotateType(Collection);0;1;1
+net.bytebuddy.dynamic.scaffold.inline.DecoratingDynamicTypeBuilder;toTypeWriter();0;1;1
+net.bytebuddy.build.AccessControllerPlugin;equals(Object);16;9;0
+net.bytebuddy.build.AccessControllerPlugin;hashCode();2;2;0
+net.bytebuddy.build.AccessControllerPlugin;make();0;1;1
+net.bytebuddy.build.AccessControllerPlugin;close();0;1;1
+net.bytebuddy.build.AccessControllerPlugin;static {...};0;1;81
+net.bytebuddy.build.AccessControllerPlugin;apply(DynamicType.Builder, TypeDescription, ClassFileLocator);4;3;7
+net.bytebuddy.build.AccessControllerPlugin;AccessControllerPlugin(String);0;1;3
+net.bytebuddy.build.AccessControllerPlugin;AccessControllerPlugin();0;1;2
+net.bytebuddy.build.HashCodeAndEqualsPlugin;equals(Object);14;8;0
+net.bytebuddy.build.HashCodeAndEqualsPlugin;apply(DynamicType.Builder, TypeDescription, ClassFileLocator);12;7;30
+net.bytebuddy.build.HashCodeAndEqualsPlugin;make();0;1;1
+net.bytebuddy.build.HashCodeAndEqualsPlugin;close();0;1;1
+net.bytebuddy.build.HashCodeAndEqualsPlugin;static {...};0;1;9
+net.bytebuddy.build.HashCodeAndEqualsPlugin;apply(MethodVisitor, MethodDescription, AnnotationValueFilter);4;3;6
+net.bytebuddy.build.HashCodeAndEqualsPlugin;hashCode();2;2;0
+net.bytebuddy.build.HashCodeAndEqualsPlugin;matches(TypeDescription);4;3;1
+net.bytebuddy.build.HashCodeAndEqualsPlugin;HashCodeAndEqualsPlugin(String);0;1;3
+net.bytebuddy.build.HashCodeAndEqualsPlugin;HashCodeAndEqualsPlugin();0;1;2
+net.bytebuddy.build.HashCodeAndEqualsPlugin;nonNullable(ElementMatcher);0;1;1
+net.bytebuddy.build.HashCodeAndEqualsPlugin;make(TypeDescription);0;1;1
+net.bytebuddy.build.RepeatedAnnotationPlugin;equals(Object);8;5;0
+net.bytebuddy.build.RepeatedAnnotationPlugin;apply(DynamicType.Builder, TypeDescription, ClassFileLocator);10;6;12
+net.bytebuddy.build.RepeatedAnnotationPlugin;hashCode();0;1;0
+net.bytebuddy.build.RepeatedAnnotationPlugin;close();0;1;1
+net.bytebuddy.build.RepeatedAnnotationPlugin;static {...};0;1;4
+net.bytebuddy.build.RepeatedAnnotationPlugin;RepeatedAnnotationPlugin();0;1;2
+net.bytebuddy.build.RenamingPlugin;equals(Object);10;6;0
+net.bytebuddy.build.RenamingPlugin;hashCode();0;1;0
+net.bytebuddy.build.RenamingPlugin;RenamingPlugin(String, String, String);0;1;2
+net.bytebuddy.build.RenamingPlugin;matches(TypeDescription);0;1;1
+net.bytebuddy.build.RenamingPlugin;close();0;1;1
+net.bytebuddy.build.RenamingPlugin;wrap(TypeDescription, ClassVisitor, Implementation.Context, TypePool, FieldList, MethodList, int, int);0;1;1
+net.bytebuddy.build.RenamingPlugin;RenamingPlugin(String, String);0;1;2
+net.bytebuddy.build.RenamingPlugin;RenamingPlugin(RenamingPlugin.Renaming, ElementMatcher);0;1;4
+net.bytebuddy.build.RenamingPlugin;RenamingPlugin(RenamingPlugin.Renaming);0;1;2
+net.bytebuddy.build.RenamingPlugin;apply(DynamicType.Builder, TypeDescription, ClassFileLocator);0;1;1
+net.bytebuddy.build.CachedReturnPlugin;equals(Object);12;7;0
+net.bytebuddy.build.CachedReturnPlugin;hashCode();0;1;0
+net.bytebuddy.build.CachedReturnPlugin;make();0;1;1
+net.bytebuddy.build.CachedReturnPlugin;close();0;1;1
+net.bytebuddy.build.CachedReturnPlugin;apply(DynamicType.Builder, TypeDescription, ClassFileLocator);20;11;26
+net.bytebuddy.build.CachedReturnPlugin;CachedReturnPlugin(boolean);2;2;10
+net.bytebuddy.build.CachedReturnPlugin;static {...};0;1;4
+net.bytebuddy.build.CachedReturnPlugin;CachedReturnPlugin();0;1;2
+net.bytebuddy.build.DispatcherAnnotationPlugin;equals(Object);8;5;0
+net.bytebuddy.build.DispatcherAnnotationPlugin;hashCode();0;1;0
+net.bytebuddy.build.DispatcherAnnotationPlugin;close();0;1;1
+net.bytebuddy.build.DispatcherAnnotationPlugin;apply(MethodVisitor, MethodDescription, AnnotationValueFilter);2;2;5
+net.bytebuddy.build.DispatcherAnnotationPlugin;apply(DynamicType.Builder, TypeDescription, ClassFileLocator);0;1;3
+net.bytebuddy.build.DispatcherAnnotationPlugin;DispatcherAnnotationPlugin();0;1;2
+net.bytebuddy.build.DispatcherAnnotationPlugin;make(TypeDescription);0;1;1
+net.bytebuddy.build.ToStringPlugin;equals(Object);6;4;0
+net.bytebuddy.build.ToStringPlugin;hashCode();0;1;0
+net.bytebuddy.build.ToStringPlugin;apply(DynamicType.Builder, TypeDescription, ClassFileLocator);4;3;11
+net.bytebuddy.build.ToStringPlugin;make();0;1;1
+net.bytebuddy.build.ToStringPlugin;close();0;1;1
+net.bytebuddy.build.ToStringPlugin;static {...};0;1;4
+net.bytebuddy.build.ToStringPlugin;matches(TypeDescription);4;3;1
+net.bytebuddy.build.ToStringPlugin;ToStringPlugin();0;1;1
+net.bytebuddy.utility.FileSystem;static {...};0;1;0
+net.bytebuddy.utility.FileSystem;getInstance();4;3;4
+net.bytebuddy.utility.FileSystem;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.utility.FileSystem;FileSystem();0;1;1
+net.bytebuddy.utility.QueueFactory;equals(Object);8;5;0
+net.bytebuddy.utility.QueueFactory;hashCode();0;1;0
+net.bytebuddy.utility.QueueFactory;static {...};0;1;1
+net.bytebuddy.utility.QueueFactory;make(Collection);2;2;2
+net.bytebuddy.utility.QueueFactory;make();2;2;2
+net.bytebuddy.utility.QueueFactory;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.utility.QueueFactory;QueueFactory();0;1;3
+net.bytebuddy.utility.JavaType;isInstance(Object);2;2;5
+net.bytebuddy.utility.JavaType;JavaType(String, int, String, int, Type, Type[]);2;2;3
+net.bytebuddy.utility.JavaType;static {...};0;1;38
+net.bytebuddy.utility.JavaType;doIsAvailable();4;3;4
+net.bytebuddy.utility.JavaType;load();4;3;1
+net.bytebuddy.utility.JavaType;JavaType(String, int, String, int, TypeDefinition, TypeDefinition[]);2;2;3
+net.bytebuddy.utility.JavaType;JavaType(String, int, String, int, TypeDescription.Generic, TypeList.Generic);0;1;3
+net.bytebuddy.utility.JavaType;loadAsDescription();0;1;1
+net.bytebuddy.utility.JavaType;isAvailable();0;1;1
+net.bytebuddy.utility.JavaType;getTypeStub();0;1;1
+net.bytebuddy.utility.FieldComparator;compare(Field, Field);4;3;6
+net.bytebuddy.utility.FieldComparator;static {...};0;1;2
+net.bytebuddy.utility.MethodComparator;compare(Method, Method);12;7;15
+net.bytebuddy.utility.MethodComparator;static {...};0;1;2
+net.bytebuddy.utility.GraalImageCode;getCurrent();14;8;16
+net.bytebuddy.utility.GraalImageCode;static {...};0;1;6
+net.bytebuddy.utility.GraalImageCode;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.utility.GraalImageCode;GraalImageCode(String, int, boolean, boolean);0;1;4
+net.bytebuddy.utility.GraalImageCode;sorted(Object[], Comparator);2;2;3
+net.bytebuddy.utility.GraalImageCode;isDefined();0;1;1
+net.bytebuddy.utility.GraalImageCode;isNativeImageExecution();0;1;1
+net.bytebuddy.utility.ConstructorComparator;compare(Constructor, Constructor);12;7;15
+net.bytebuddy.utility.ConstructorComparator;static {...};0;1;2
+net.bytebuddy.utility.CompoundList;of(List, List, List);0;1;5
+net.bytebuddy.utility.CompoundList;of(Object, List);2;2;6
+net.bytebuddy.utility.CompoundList;of(List, Object);2;2;6
+net.bytebuddy.utility.CompoundList;of(List, List);0;1;4
+net.bytebuddy.utility.CompoundList;CompoundList();0;1;2
+net.bytebuddy.utility.JavaModule;equals(Object);4;3;6
+net.bytebuddy.utility.JavaModule;isExported(PackageDescription, JavaModule);6;4;3
+net.bytebuddy.utility.JavaModule;isOpened(PackageDescription, JavaModule);6;4;3
+net.bytebuddy.utility.JavaModule;static {...};0;1;3
+net.bytebuddy.utility.JavaModule;canRead(JavaModule);0;1;1
+net.bytebuddy.utility.JavaModule;getDeclaredAnnotations();0;1;1
+net.bytebuddy.utility.JavaModule;of(Object);2;2;3
+net.bytebuddy.utility.JavaModule;getResourceAsStream(String);0;1;1
+net.bytebuddy.utility.JavaModule;ofType(Class);2;2;2
+net.bytebuddy.utility.JavaModule;isNamed();0;1;1
+net.bytebuddy.utility.JavaModule;getActualName();0;1;1
+net.bytebuddy.utility.JavaModule;getPackages();0;1;1
+net.bytebuddy.utility.JavaModule;getClassLoader();0;1;1
+net.bytebuddy.utility.JavaModule;hashCode();0;1;1
+net.bytebuddy.utility.JavaModule;toString();0;1;1
+net.bytebuddy.utility.JavaModule;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.utility.JavaModule;JavaModule(AnnotatedElement);0;1;3
+net.bytebuddy.utility.JavaModule;isSupported();0;1;1
+net.bytebuddy.utility.JavaModule;unwrap();0;1;1
+net.bytebuddy.utility.RandomString;static {...};8;5;11
+net.bytebuddy.utility.RandomString;hashOf(int);4;3;4
+net.bytebuddy.utility.RandomString;nextString();2;2;4
+net.bytebuddy.utility.RandomString;RandomString(int, Random);2;2;6
+net.bytebuddy.utility.RandomString;hashOf(Object);2;2;2
+net.bytebuddy.utility.RandomString;RandomString(int);0;1;2
+net.bytebuddy.utility.RandomString;make(int);0;1;1
+net.bytebuddy.utility.RandomString;RandomString();0;1;2
+net.bytebuddy.utility.RandomString;make();0;1;1
+net.bytebuddy.utility.OpenedClassReader;of(byte[]);4;3;15
+net.bytebuddy.utility.OpenedClassReader;static {...};0;1;7
+net.bytebuddy.utility.OpenedClassReader;OpenedClassReader();0;1;2
+net.bytebuddy.utility.OpenedClassReader;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.utility.StreamDrainer;equals(Object);8;5;0
+net.bytebuddy.utility.StreamDrainer;hashCode();0;1;0
+net.bytebuddy.utility.StreamDrainer;drain(InputStream);6;4;17
+net.bytebuddy.utility.StreamDrainer;static {...};0;1;1
+net.bytebuddy.utility.StreamDrainer;StreamDrainer(int);0;1;3
+net.bytebuddy.utility.StreamDrainer;StreamDrainer();0;1;2
+net.bytebuddy.agent.builder.LambdaFactory;register(ClassFileTransformer, Object);0;1;17
+net.bytebuddy.agent.builder.LambdaFactory;equals(Object);10;6;0
+net.bytebuddy.agent.builder.LambdaFactory;hashCode();0;1;0
+net.bytebuddy.agent.builder.LambdaFactory;invoke(Object, String, Object, Object, Object, Object, boolean, List, List, Collection);0;1;6
+net.bytebuddy.agent.builder.LambdaFactory;release(ClassFileTransformer);4;3;10
+net.bytebuddy.agent.builder.LambdaFactory;make(Object, String, Object, Object, Object, Object, boolean, List, List);0;1;2
+net.bytebuddy.agent.builder.LambdaFactory;LambdaFactory(Object, Method);0;1;4
+net.bytebuddy.agent.builder.LambdaFactory;static {...};0;1;1
+net.bytebuddy.implementation.bind.DeclaringTypeResolver;resolve(MethodDescription, MethodDelegationBinder.MethodBinding, MethodDelegationBinder.MethodBinding);6;4;9
+net.bytebuddy.implementation.bind.DeclaringTypeResolver;static {...};0;1;2
+net.bytebuddy.implementation.bind.ParameterLengthResolver;resolve(MethodDescription, MethodDelegationBinder.MethodBinding, MethodDelegationBinder.MethodBinding);4;3;7
+net.bytebuddy.implementation.bind.ParameterLengthResolver;static {...};0;1;2
+net.bytebuddy.implementation.bind.MethodNameEqualityResolver;resolve(MethodDescription, MethodDelegationBinder.MethodBinding, MethodDelegationBinder.MethodBinding);4;3;5
+net.bytebuddy.implementation.bind.MethodNameEqualityResolver;static {...};0;1;2
+net.bytebuddy.implementation.bind.ArgumentTypeResolver;resolveRivalBinding(TypeDescription, int, MethodDelegationBinder.MethodBinding, int, MethodDelegationBinder.MethodBinding);18;10;15
+net.bytebuddy.implementation.bind.ArgumentTypeResolver;resolve(MethodDescription, MethodDelegationBinder.MethodBinding, MethodDelegationBinder.MethodBinding);12;7;17
+net.bytebuddy.implementation.bind.ArgumentTypeResolver;static {...};0;1;2
+net.bytebuddy.implementation.bind.ArgumentTypeResolver;resolveByScore(int);4;3;5
+net.bytebuddy.implementation.bytecode.assign.reference.GenericTypeAwareAssigner;assign(TypeDescription.Generic, TypeDescription.Generic, Assigner.Typing);12;7;8
+net.bytebuddy.implementation.bytecode.assign.reference.GenericTypeAwareAssigner;static {...};0;1;2
+net.bytebuddy.implementation.bytecode.assign.reference.ReferenceTypeAwareAssigner;assign(TypeDescription.Generic, TypeDescription.Generic, Assigner.Typing);10;6;7
+net.bytebuddy.implementation.bytecode.assign.reference.ReferenceTypeAwareAssigner;static {...};0;1;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;doDefineClasses(Map);12;7;17
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;load(ClassLoader, Map, ProtectionDomain, ByteArrayClassLoader.PersistenceHandler, PackageDefinitionStrategy, boolean, boolean);10;6;16
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;ByteArrayClassLoader(ClassLoader, Map, ProtectionDomain, ByteArrayClassLoader.PersistenceHandler, PackageDefinitionStrategy, ClassFilePostProcessor);0;1;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;load(ClassLoader, Map);0;1;1
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;static {...};0;1;5
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;doPrivileged(PrivilegedAction, Object);2;2;1
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;getContext();2;2;1
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;doRegisterAsParallelCapable();0;1;6
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;findClass(String);2;2;4
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;ByteArrayClassLoader(ClassLoader, boolean, Map, ProtectionDomain, ByteArrayClassLoader.PersistenceHandler, PackageDefinitionStrategy, ClassFilePostProcessor);0;1;8
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;findResources(String);2;2;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;methodHandle();0;1;1
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;ByteArrayClassLoader(ClassLoader, boolean, Map, ProtectionDomain, ByteArrayClassLoader.PersistenceHandler, PackageDefinitionStrategy);0;1;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;ByteArrayClassLoader(ClassLoader, boolean, Map, ByteArrayClassLoader.PersistenceHandler);0;1;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;ByteArrayClassLoader(ClassLoader, Map, ProtectionDomain, ByteArrayClassLoader.PersistenceHandler, PackageDefinitionStrategy);0;1;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;ByteArrayClassLoader(ClassLoader, boolean, Map);0;1;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;ByteArrayClassLoader(ClassLoader, Map, ByteArrayClassLoader.PersistenceHandler);0;1;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;findResource(String);0;1;1
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;ByteArrayClassLoader(ClassLoader, Map);0;1;2
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader;doGetPackage(String);0;1;1
+net.bytebuddy.dynamic.loading.ClassInjector;static {...};0;1;1
+net.bytebuddy.dynamic.loading.ClassLoadingStrategy;static {...};0;1;2
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;doDefineClasses(Map);2;2;5
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;loadClass(String, boolean);4;3;8
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;MultipleParentClassLoader(ClassLoader, List);0;1;2
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;MultipleParentClassLoader(List);0;1;2
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;getResource(String);4;3;6
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;doRegisterAsParallelCapable();0;1;6
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;getResources(String);2;2;6
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;MultipleParentClassLoader(ClassLoader, List, boolean);0;1;3
+net.bytebuddy.dynamic.loading.MultipleParentClassLoader;static {...};0;1;2
+net.bytebuddy.dynamic.loading.InjectionClassLoader;defineClasses(Map);2;2;3
+net.bytebuddy.dynamic.loading.InjectionClassLoader;doRegisterAsParallelCapable();0;1;6
+net.bytebuddy.dynamic.loading.InjectionClassLoader;InjectionClassLoader(ClassLoader, boolean);0;1;3
+net.bytebuddy.dynamic.loading.InjectionClassLoader;seal();2;2;1
+net.bytebuddy.dynamic.loading.InjectionClassLoader;defineClass(String, byte[]);0;1;1
+net.bytebuddy.dynamic.loading.InjectionClassLoader;isSealed();0;1;1
+net.bytebuddy.dynamic.loading.InjectionClassLoader;static {...};0;1;2
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;equals(Object);14;8;0
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;resolveByteBuddyAgentInstrumentation();4;3;10
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;reset(ClassFileLocator, Class[]);2;2;8
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;hashCode();0;1;0
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;load(ClassLoader, Map);10;6;24
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;enableBootstrapInjection(File);0;1;1
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;static {...};0;1;1
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;doPrivileged(PrivilegedAction);2;2;1
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;preregistered(Class[]);2;2;4
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;of(Instrumentation);4;3;5
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;ClassReloadingStrategy(Instrumentation, ClassReloadingStrategy.Strategy, ClassReloadingStrategy.BootstrapInjection, Map);0;1;6
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;reset(Class[]);2;2;2
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;ClassReloadingStrategy(Instrumentation, ClassReloadingStrategy.Strategy);0;1;3
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;fromInstalledAgent(ClassReloadingStrategy.Strategy);0;1;1
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy;fromInstalledAgent();0;1;1
+net.bytebuddy.implementation.attribute.AnnotationRetention;static {...};0;1;3
+net.bytebuddy.implementation.attribute.AnnotationRetention;AnnotationRetention(String, int, boolean);0;1;3
+net.bytebuddy.implementation.attribute.AnnotationRetention;of(boolean);2;2;1
+net.bytebuddy.implementation.attribute.AnnotationRetention;isEnabled();0;1;1
+net.bytebuddy.implementation.attribute.AnnotationAppender;static {...};0;1;1
+net.bytebuddy.utility.privilege.SetAccessibleAction;equals(Object);8;5;0
+net.bytebuddy.utility.privilege.SetAccessibleAction;hashCode();0;1;0
+net.bytebuddy.utility.privilege.SetAccessibleAction;run();0;1;2
+net.bytebuddy.utility.privilege.SetAccessibleAction;SetAccessibleAction(AccessibleObject);0;1;3
+net.bytebuddy.utility.privilege.GetMethodAction;equals(Object);12;7;0
+net.bytebuddy.utility.privilege.GetMethodAction;hashCode();0;1;0
+net.bytebuddy.utility.privilege.GetMethodAction;GetMethodAction(String, String, Class[]);0;1;5
+net.bytebuddy.utility.privilege.GetMethodAction;run();0;1;3
+net.bytebuddy.utility.privilege.GetSystemPropertyAction;equals(Object);8;5;0
+net.bytebuddy.utility.privilege.GetSystemPropertyAction;hashCode();0;1;0
+net.bytebuddy.utility.privilege.GetSystemPropertyAction;GetSystemPropertyAction(String);0;1;3
+net.bytebuddy.utility.privilege.GetSystemPropertyAction;run();0;1;1
+net.bytebuddy.dynamic.scaffold.subclass.SubclassDynamicTypeBuilder;equals(Object);10;6;0
+net.bytebuddy.dynamic.scaffold.subclass.SubclassDynamicTypeBuilder;hashCode();0;1;0
+net.bytebuddy.dynamic.scaffold.subclass.SubclassDynamicTypeBuilder;toTypeWriter(TypePool);0;1;8
+net.bytebuddy.dynamic.scaffold.subclass.SubclassDynamicTypeBuilder;SubclassDynamicTypeBuilder(InstrumentedType.WithFlexibleName, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, ConstructorStrategy);0;1;3
+net.bytebuddy.dynamic.scaffold.subclass.SubclassDynamicTypeBuilder;SubclassDynamicTypeBuilder(InstrumentedType.WithFlexibleName, FieldRegistry, MethodRegistry, RecordComponentRegistry, TypeAttributeAppender, AsmVisitorWrapper, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, List, ConstructorStrategy);0;1;3
+net.bytebuddy.dynamic.scaffold.subclass.SubclassDynamicTypeBuilder;materialize(InstrumentedType.WithFlexibleName, FieldRegistry, MethodRegistry, RecordComponentRegistry, TypeAttributeAppender, AsmVisitorWrapper, ClassFileVersion, AuxiliaryType.NamingStrategy, AnnotationValueFilter.Factory, AnnotationRetention, Implementation.Context.Factory, MethodGraph.Compiler, TypeValidation, VisibilityBridgeStrategy, ClassWriterStrategy, LatentMatcher, List);0;1;1
+net.bytebuddy.dynamic.scaffold.subclass.SubclassDynamicTypeBuilder;applyConstructorStrategy(InstrumentedType);4;3;5
+net.bytebuddy.dynamic.scaffold.subclass.SubclassDynamicTypeBuilder;toTypeWriter();0;1;1
+net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget;equals(Object);10;6;0
+net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget;invokeConstructor(MethodDescription.SignatureToken);4;3;5
+net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget;invokeMethod(MethodDescription.SignatureToken);2;2;3
+net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget;invokeSuper(MethodDescription.SignatureToken);2;2;3
+net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget;SubclassImplementationTarget(TypeDescription, MethodGraph.Linked, Implementation.Target.AbstractBase.DefaultMethodInvocation, SubclassImplementationTarget.OriginTypeResolver);0;1;3
+net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget;hashCode();0;1;0
+net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget;getOriginType();0;1;1
+net.bytebuddy.description.method.MethodDescription;static {...};0;1;1

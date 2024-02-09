@@ -1,0 +1,13 @@
+class,num_branches,complexity,loc,has_randoop_failed
+com.squareup.javapoet.AnnotationSpec,26,15,40,0
+com.squareup.javapoet.ClassName,40,23,46,0
+com.squareup.javapoet.CodeWriter,110,66,133,0
+com.squareup.javapoet.JavaFile,26,15,35,0
+com.squareup.javapoet.LineWrapper,22,14,31,0
+com.squareup.javapoet.MethodSpec,54,31,94,0
+com.squareup.javapoet.NameAllocator,10,6,12,0
+com.squareup.javapoet.ParameterizedTypeName,20,12,27,0
+com.squareup.javapoet.TypeName,86,47,52,0
+com.squareup.javapoet.TypeSpec,84,43,112,0
+com.squareup.javapoet.Util,21,16,25,0
+com.squareup.javapoet.WildcardTypeName,14,8,11,0

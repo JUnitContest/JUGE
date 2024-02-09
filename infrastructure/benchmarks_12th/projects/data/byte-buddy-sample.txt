@@ -1,0 +1,14 @@
+class,num_branches,complexity,loc,has_randoop_failed
+net.bytebuddy.matcher.SuperTypeMatcher,10,6,0,0
+net.bytebuddy.agent.builder.LambdaFactory,10,6,0,0
+net.bytebuddy.dynamic.loading.ClassReloadingStrategy,24,14,24,0
+net.bytebuddy.matcher.SubTypeMatcher,10,6,0,0
+net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveWideningDelegate,32,18,34,0
+net.bytebuddy.matcher.AnnotationTargetMatcher,10,6,0,0
+net.bytebuddy.implementation.auxiliary.MethodCallProxy,12,7,0,0
+net.bytebuddy.matcher.InheritedAnnotationMatcher,10,6,0,0
+net.bytebuddy.implementation.bind.ArgumentTypeResolver,30,17,32,0
+net.bytebuddy.matcher.DeclaringTypeMatcher,10,6,0,0
+net.bytebuddy.implementation.bytecode.member.MethodReturn,10,6,11,0
+net.bytebuddy.dynamic.loading.ByteArrayClassLoader,22,13,33,0
+net.bytebuddy.implementation.bytecode.StackSize,7,6,8,0

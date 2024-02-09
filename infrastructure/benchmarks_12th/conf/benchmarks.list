@@ -1,0 +1,698 @@
+{
+BYTEBUDDY-1=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.matcher.SuperTypeMatcher
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-2=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.agent.builder.LambdaFactory
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-3=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.dynamic.loading.ClassReloadingStrategy
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-4=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.matcher.SubTypeMatcher
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-5=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.implementation.bytecode.assign.primitive.PrimitiveWideningDelegate
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-6=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.matcher.AnnotationTargetMatcher
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-7=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.implementation.auxiliary.MethodCallProxy
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-8=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.matcher.InheritedAnnotationMatcher
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-9=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.implementation.bind.ArgumentTypeResolver
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-10=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.matcher.DeclaringTypeMatcher
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-11=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.implementation.bytecode.member.MethodReturn
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-12=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.dynamic.loading.ByteArrayClassLoader
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+BYTEBUDDY-13=
+{
+  src=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/src/main/java
+  bin=/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes
+  classes=(
+    net.bytebuddy.implementation.bytecode.StackSize
+  )
+
+  classpath=(
+    /var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/classes,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/asm-commons-9.6.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jna-platform-5.12.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/findbugs-annotations-3.0.1.jar,/var/benchmarks/projects/byte-buddy/byte-buddy-dep/target/dependency/jsr305-3.0.2.jar
+  )
+}
+ERRORPRONE-1=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.MockitoUsage
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-2=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.flogger.FloggerMessageFormat
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-3=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.DoNotCallSuggester
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-4=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.EmptyIfStatement
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-5=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.refaster.AutoValue_LocalVarBinding
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-6=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.threadsafety.GuardedBySymbolResolver
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-7=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.EmptyCatch
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-8=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.NonFinalCompileTimeConstant
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-9=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.refaster.AutoValue_UVariableDecl
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-10=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.JUnitAssertSameCheck
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-11=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.PrivateConstructorForUtilityClass
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-12=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.inject.guice.OverridesJavaxInjectableMethod
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-13=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.FallThrough
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-14=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.LongFloatConversion
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-15=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.refaster.AutoValue_UTry
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-16=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.CanBeStaticAnalyzer
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-17=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.UnnecessaryAnonymousClass
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-18=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.UnnecessarySetDefault
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-19=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.RedundantCondition
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-20=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.refaster.AutoValue_UIf
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-21=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.MutableConstantField
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-22=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.InconsistentCapitalization
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-23=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.Incomparable
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-24=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.flogger.FloggerWithCause
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-25=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.UnusedVariable
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-26=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.refaster.AutoValue_UOfKind
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-27=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.collectionincompatibletype.AutoValue_IncompatibleArgumentType_RequiredType
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-28=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.inject.AutoFactoryAtInject
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-29=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.IdentityBinaryExpression
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-30=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.IntLongMath
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-31=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.StringBuilderInitWithChar
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-32=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.refaster.AutoValue_UTypeCast
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-33=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.UnusedAnonymousClass
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-34=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.AutoValue_TypeCompatibilityUtils_TypeCompatibilityReport
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-35=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.OptionalOfRedundantMethod
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-36=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.refaster.Unifier
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-37=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.javadoc.AlmostJavadoc
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-38=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.refaster.AutoValue_ULambda
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-39=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.BigDecimalLiteralDouble
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-40=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.InexactVarargsConditional
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-41=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.FieldCanBeFinal
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-42=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.ImmutableSetForContains
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+ERRORPRONE-43=
+{
+  src=/var/benchmarks/projects/error-prone/core/src/main/java
+  bin=/var/benchmarks/projects/error-prone/core/target/classes
+  classes=(
+    com.google.errorprone.bugpatterns.MissingSuperCall
+  )
+
+  classpath=(
+    /var/benchmarks/projects/error-prone/core/target/classes,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotation-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/caffeine-2.8.8.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jFormatString-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/pcollections-2.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/failureaccess-1.0.1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/org.eclipse.jgit-4.4.1.201607150455-r.jar,/var/benchmarks/projects/error-prone/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_check_api-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/software-and-algorithms-1.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-common-1.1.2.jar,/var/benchmarks/projects/error-prone/core/target/dependency/protobuf-java-3.4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/javac-9+181-r4173-1.jar,/var/benchmarks/projects/error-prone/core/target/dependency/guava-30.1-jre.jar,/var/benchmarks/projects/error-prone/core/target/dependency/jsr305-3.0.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-service-annotations-1.0-rc6.jar,/var/benchmarks/projects/error-prone/core/target/dependency/checker-qual-3.5.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_type_annotations-2.10.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/j2objc-annotations-1.3.jar,/var/benchmarks/projects/error-prone/core/target/dependency/auto-value-annotations-1.7.jar,/var/benchmarks/projects/error-prone/core/target/dependency/java-diff-utils-4.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/dataflow-errorprone-3.15.0.jar,/var/benchmarks/projects/error-prone/core/target/dependency/error_prone_annotations-2.10.0.jar
+  )
+}
+JAVAPOET-1=
+{
+  src=/var/benchmarks/projects/javapoet/src/main/java
+  bin=/var/benchmarks/projects/javapoet/target/classes
+  classes=(
+    com.squareup.javapoet.Util
+  )
+
+  classpath=(
+    /var/benchmarks/projects/javapoet/target/classes
+  )
+}
+JAVAPOET-2=
+{
+  src=/var/benchmarks/projects/javapoet/src/main/java
+  bin=/var/benchmarks/projects/javapoet/target/classes
+  classes=(
+    com.squareup.javapoet.JavaFile
+  )
+
+  classpath=(
+    /var/benchmarks/projects/javapoet/target/classes
+  )
+}
+}

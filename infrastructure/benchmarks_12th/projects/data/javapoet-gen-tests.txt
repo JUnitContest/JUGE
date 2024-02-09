@@ -1,0 +1,13 @@
+class,has_randoop_failed
+com.squareup.javapoet.AnnotationSpec,0
+com.squareup.javapoet.ClassName,0
+com.squareup.javapoet.CodeWriter,0
+com.squareup.javapoet.JavaFile,0
+com.squareup.javapoet.LineWrapper,0
+com.squareup.javapoet.MethodSpec,0
+com.squareup.javapoet.NameAllocator,0
+com.squareup.javapoet.ParameterizedTypeName,0
+com.squareup.javapoet.TypeName,0
+com.squareup.javapoet.TypeSpec,0
+com.squareup.javapoet.Util,0
+com.squareup.javapoet.WildcardTypeName,0
