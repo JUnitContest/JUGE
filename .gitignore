@@ -5,6 +5,7 @@
 **.idea
 **.iml
 .Rapp.history
+.vscode
 
 # Eclipse
 .classpath

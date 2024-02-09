@@ -118,7 +118,6 @@ public class BBCTestingTool implements ITestingTool {
                     "-Dstopping_condition=MaxTime",
                     "-Dassertion_strategy=all",
                     "-Dtest_comments=false",
-                    "-mem", "1200",
                     "-Dminimize=true",
                     "-Dinline=false",
                     "-Dcoverage=false",

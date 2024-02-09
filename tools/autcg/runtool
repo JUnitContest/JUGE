@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# switch to environment JVM as needed
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+# JAVA_HOME=/usr
+
+SCRIPT_DIR=/home/autcg
+
+AUTCG=$SCRIPT_DIR/lib/smartut-master-1.1.0.jar
+TOOL=$SCRIPT_DIR/lib/autcg_runtool-1.0.0.jar
+
+
+java -cp $SCRIPT_DIR:$AUTCG:$TOOL sbst.runtool.Main

@@ -45,6 +45,8 @@
         <module>randoop_runtool</module>
         <module>manual_runtool</module>
         <module>jcrasher_runtool</module>
+        <module>evosuite_runtool</module>
+        <module>autcg_runtool</module>
         <module>shaded</module>
     </modules>
 

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# switch to environment JVM as needed
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+# JAVA_HOME=/usr
+
+SCRIPT_DIR=/home/evosuite
+
+EVO=$SCRIPT_DIR/lib/evosuite.jar
+TOOL=$SCRIPT_DIR/lib/evosuite_runtool-1.0.0.jar
+
+
+java -cp $SCRIPT_DIR:$EVO:$TOOL -Dlogback.configurationFile=$SCRIPT_DIR/sbst_logback.xml  -Duse_different_logback=sbst_logback.xml  sbst.runtool.Main
